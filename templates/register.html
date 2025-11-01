@@ -10,6 +10,27 @@
 
   <div class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md">
     <h1 class="text-3xl font-semibold text-center text-green-700 mb-6">Create an Account</h1>
+    <!-- Flash Messages -->
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <div class="mb-4">
+      {% for category, message in messages %}
+        <div class="p-3 rounded-md text-sm font-medium
+                    {% if category == 'success' %}
+                      bg-green-100 text-green-800 border border-green-300
+                    {% elif category == 'danger' %}
+                      bg-red-100 text-red-800 border border-red-300
+                    {% elif category == 'warning' %}
+                      bg-yellow-100 text-yellow-800 border border-yellow-300
+                    {% else %}
+                      bg-gray-100 text-gray-800 border border-gray-300
+                    {% endif %}">
+          {{ message }}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endwith %}
 
     <!-- Registration Form -->
     <form action="{{ url_for('register') }}" method="post" class="space-y-5">
@@ -52,7 +73,7 @@
     <!-- Login Redirect -->
     <p class="text-center text-gray-600 mt-4">
       Already have an account?
-      <a href="{{ url_for('register') }}" class="text-green-700 hover:underline">Login here</a>
+      <a href="{{ url_for('login') }}" class="text-green-700 hover:underline">Login here</a>
     </p>
 
     <!-- Back to Home -->
