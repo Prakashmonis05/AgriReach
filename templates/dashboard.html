@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agrireach</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-[Poppins]">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md sticky top-0 z-50 ">
+    <div class="w-full flex justify-between items-center px-4 md:px-8 py-3">
+
+      <!-- Left: Logo + Title -->
+      <div class="flex items-center space-x-2">
+        <img src="{{ url_for('static', filename='images/image_agriculture.jpeg') }}" alt="logo" class="w-14 h-14 rounded-full object-cover">
+        <h2 class="text-4xl font-semibold text-green-700 font-serif">AgriReach</h2>
+
+      </div>
+
+      <!-- Right: Navigation Menu -->
+      <ul class="hidden md:flex space-x-6 text-gray-700 font-medium">
+        <li><a href="#" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Home</a></li>
+        <li><a href="{{ url_for('schemes') }}" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Schemes</a></li>
+        <li><a href="{{ url_for('weather') }}" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Weather</a></li>
+        <li><a href="#" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Soil & Waste Management</a></li>
+        <li><a href="{{ url_for('chatbot_page') }}" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Ai Assistant</a></li>
+        <li><a href="{{ url_for('contact') }}" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Contact</a></li>
+        <li><a href="login.html" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section 
+    class="relative h-[90vh] bg-cover bg-center flex items-center justify-center text-center text-white"
+    style="background-image: url('imgbackground.jpg');">
+    
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black opacity-40"></div>
+
+    <!-- Hero Content -->
+    <div class="relative z-10 max-w-2xl px-6">
+      <h1 class="text-4xl md:text-5xl font-semibold mb-4">Smart Digital Help For Every Farmer</h1>
+      <p class="text-lg md:text-xl mb-6">Access weather updates, government schemes, and expert farming advice - all in one place</p>
+     
+    </div>
+  </section>
+
+</body>
+</html>
