@@ -119,8 +119,13 @@ def schemes():
     return render_template('schemes.html')
 
 @app.route('/chatbot')
-def chatbot_page():
+def chatbot():
     return render_template('chatbot.html')
+
+
+@app.route('/sustainable')
+def sustainable():
+    return render_template('sustainable.html')
 
 
 

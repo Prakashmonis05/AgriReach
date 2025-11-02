@@ -1,8 +1,0 @@
-<li><a href="#" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Home</a></li>
-        <!-- <li><a href="{{ url_for('schemes') }}" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Schemes</a></li> -->
-        <!-- <li><a href="{{ url_for('weather') }}" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Weather</a></li> -->
-        <li><a href="#" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Soil & Waste Management</a></li>
-        <!-- <li><a href="{{ url_for('chatbot_page') }}" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Ai Assistant</a></li> -->
-        <!-- <li><a href="{{ url_for('contact') }}" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Contact</a></li> -->
-        <li><a href="login.html" class="px-3 py-2 rounded-md transition-all duration-300 hover:bg-green-600 hover:text-white active:bg-green-700">Logout</a></li>
-      </ul>

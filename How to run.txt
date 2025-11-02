@@ -1,0 +1,19 @@
+First Create the virtual environment to avoid conflicts between modules
+python -m venv venv
+
+then install all the modules 
+pip install -r requirements.txt
+
+
+to start the app run 
+app.python
+or 
+run this on terminal
+python app.py
+
+
+The app is made from flask for backend and for frontend html css and js
+
+
+
+if possible share the github username so you can get daily updates form there by just pulling the resources
