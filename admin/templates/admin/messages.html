@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Chat - Messages</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-100">
+    
+{% include 'admin/navbar.html' %}
+
+<div class="h-[calc(100vh-80px)] flex">
+    
+    <!-- Sidebar -->
+    <div class="w-80 bg-white shadow-2xl flex flex-col border-r border-gray-200">
+        <!-- Sidebar Header -->
+        <div class="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+            <h2 class="text-2xl font-bold flex items-center">
+                <span class="mr-3">💬</span> Messages
+            </h2>
+            <p class="text-sm text-blue-100 mt-1">{{ users|length }} conversations</p>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="p-4 border-b border-gray-200">
+            <div class="relative">
+                <input type="text" id="searchUsers" placeholder="Search users..." 
+                       class="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                <span class="absolute left-3 top-2.5 text-gray-400">🔍</span>
+            </div>
+        </div>
+
+        <!-- User List -->
+        <div class="flex-1 overflow-y-auto">
+            <ul id="userList">
+                {% for user in users %}
+                <li class="border-b border-gray-100 hover:bg-blue-50 transition-colors duration-200 {% if user.id == user_id %}bg-blue-100{% endif %}" data-user-name="{{ user.name }}">
+                    <a href="{{ url_for('admin.admin_messages', user_id=user.id) }}" 
+                       class="block p-4">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-md">
+                                {{ user.name[0].upper() }}
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <p class="font-semibold text-gray-800 truncate">{{ user.name }}</p>
+                                <p class="text-sm text-gray-500 truncate">{{ user.email }}</p>
+                            </div>
+                            {% if user.id == user_id %}
+                            <span class="text-blue-600 text-xl">✓</span>
+                            {% endif %}
+                        </div>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Chat Window -->
+    <div class="flex-1 flex flex-col bg-white">
+
+        <!-- Chat Header -->
+        <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-5 shadow-md border-b border-gray-200">
+            <div class="flex items-center space-x-4">
+                <div class="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-md">
+                    {{ user_name[0].upper() if user_name else '?' }}
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-gray-800">{{ user_name if user_name else 'Select a user' }}</h3>
+                    <p class="text-sm text-gray-500 flex items-center">
+                        <span class="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                        Active now
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Messages Container -->
+        <div class="flex-1 overflow-y-auto p-6 space-y-4 bg-gradient-to-b from-gray-50 to-white" id="messageContainer">
+
+            {% if messages %}
+                {% for m in messages %}
+                    {% if m.sender == 'user' %}
+                        <!-- User message -->
+                        <div class="flex items-end space-x-2 animate-fade-in">
+                            <div class="w-8 h-8 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xs shadow">
+                                {{ user_name[0].upper() if user_name else 'U' }}
+                            </div>
+                            <div class="bg-white p-4 rounded-2xl rounded-bl-none shadow-md max-w-lg border border-gray-200">
+                                <p class="text-gray-800">{{ m.message }}</p>
+                                <span class="text-xs text-gray-400 mt-2 block">
+                                    {{ m.created_at }}
+                                </span>
+                            </div>
+                        </div>
+                    {% else %}
+                        <!-- Admin message -->
+                        <div class="flex items-end justify-end space-x-2 animate-fade-in">
+                            <div class="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-4 rounded-2xl rounded-br-none shadow-lg max-w-lg">
+                                <p>{{ m.message }}</p>
+                                <span class="text-xs text-blue-100 mt-2 block text-right">
+                                    {{ m.created_at }}
+                                </span>
+                            </div>
+                            <div class="w-8 h-8 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center text-white font-bold text-xs shadow">
+                                A
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                <div class="flex items-center justify-center h-full">
+                    <div class="text-center">
+                        <span class="text-6xl mb-4 block">💬</span>
+                        <p class="text-xl text-gray-500 font-semibold">No messages yet</p>
+                        <p class="text-gray-400 mt-2">Start the conversation below</p>
+                    </div>
+                </div>
+            {% endif %}
+
+        </div>
+
+        <!-- Message Input -->
+        {% if user_id %}
+        <form method="POST" 
+              action="{{ url_for('admin.admin_send_message', user_id=user_id) }}"
+              class="p-5 bg-white flex gap-3 border-t border-gray-200 shadow-lg">
+
+            <input name="message" required
+                   placeholder="Type your message..."
+                   class="flex-1 border-2 border-gray-300 rounded-xl px-5 py-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300"/>
+
+            <button type="submit" class="px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl flex items-center space-x-2">
+                <span>Send</span>
+                <span>📤</span>
+            </button>
+        </form>
+        {% else %}
+        <div class="p-5 bg-gray-50 border-t border-gray-200 text-center text-gray-500">
+            Select a user to start messaging
+        </div>
+        {% endif %}
+
+    </div>
+</div>
+
+<!-- Scripts -->
+<script>
+    // Auto scroll to bottom of messages
+    const messageContainer = document.getElementById('messageContainer');
+    if (messageContainer) {
+        messageContainer.scrollTop = messageContainer.scrollHeight;
+    }
+
+    // User search functionality
+    const searchInput = document.getElementById('searchUsers');
+    const userList = document.getElementById('userList');
+    
+    if (searchInput && userList) {
+        searchInput.addEventListener('keyup', function() {
+            const searchTerm = this.value.toLowerCase();
+            const users = userList.getElementsByTagName('li');
+            
+            for (let user of users) {
+                const userName = user.getAttribute('data-user-name').toLowerCase();
+                if (userName.includes(searchTerm)) {
+                    user.style.display = '';
+                } else {
+                    user.style.display = 'none';
+                }
+            }
+        });
+    }
+
+    // Add fade-in animation
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fade-in {
+            animation: fade-in 0.3s ease-out;
+        }
+    `;
+    document.head.appendChild(style);
+</script>
+
+</body>
+</html>

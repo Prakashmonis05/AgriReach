@@ -1,10 +1,10 @@
 from flask import Blueprint, render_template, request, jsonify,session
 import requests
-from models import db, ChatMemory
+from models import db, ChatMemory, log_activity
 
 chatbot = Blueprint('chatbot', __name__)
 
-API_KEY = "sk-or-your-key"
+API_KEY = "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"
 BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 
@@ -27,7 +27,7 @@ def get_bot_response(user_message):
     }
 
     data = {
-        "model": "deepseek/deepseek-chat-v3.1:free",
+        "model": "deepseek/deepseek-chat-v3.1",
         "messages": [
             {"role": "system", "content": "You are AgriBot..."},
             {"role": "user", "content": user_message}
@@ -53,7 +53,6 @@ def chatbot_page():
     return render_template("chatbot.html", history=history)
 
 
-
 @chatbot.route("/chat", methods=["POST"])
 def chatbot_api():
     data = request.get_json()
@@ -62,8 +61,11 @@ def chatbot_api():
     if not user_message:
         return jsonify({"reply": "⚠️ No message received."})
 
-    # 🔐 Get current user ID (assuming login session stores it)
+    # 🔐 Get current user ID
     user_id = session.get("user_id", "guest")   # fallback
+
+    # 🟦 **Log AI usage**
+    log_activity(user_id, "ai_usage")
 
     # 📝 Store user message
     user_entry = ChatMemory(

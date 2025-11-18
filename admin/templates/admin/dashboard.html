@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
+
+<!-- Include your navbar here -->
+{% include 'admin/navbar.html' %}
+
+<div class="container mx-auto px-4 py-8 max-w-7xl">
+    
+    <!-- Header Section -->
+    <div class="mb-8">
+        <h1 class="text-4xl font-bold text-gray-800 mb-2">Admin Dashboard</h1>
+        <p class="text-gray-600">Overview of your platform's performance and user analytics</p>
+    </div>
+
+    <!-- ===================== ANALYTICS CARDS ===================== -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+
+        <!-- DAU -->
+        <div class="bg-white shadow-lg rounded-xl p-6 border-l-4 border-blue-500 hover:shadow-xl transition-shadow duration-300">
+            <div class="flex items-center justify-between mb-2">
+                <h2 class="text-gray-500 text-xs font-semibold uppercase tracking-wide">Daily Active Users</h2>
+                <span class="text-blue-500 text-2xl">📊</span>
+            </div>
+            <p id="dau" class="text-4xl font-bold text-gray-800">0</p>
+            <p class="text-xs text-gray-500 mt-2">Last 24 hours</p>
+        </div>
+
+        <!-- WAU -->
+        <div class="bg-white shadow-lg rounded-xl p-6 border-l-4 border-green-500 hover:shadow-xl transition-shadow duration-300">
+            <div class="flex items-center justify-between mb-2">
+                <h2 class="text-gray-500 text-xs font-semibold uppercase tracking-wide">Weekly Active Users</h2>
+                <span class="text-green-500 text-2xl">📈</span>
+            </div>
+            <p id="wau" class="text-4xl font-bold text-gray-800">0</p>
+            <p class="text-xs text-gray-500 mt-2">Last 7 days</p>
+        </div>
+
+        <!-- MAU -->
+        <div class="bg-white shadow-lg rounded-xl p-6 border-l-4 border-purple-500 hover:shadow-xl transition-shadow duration-300">
+            <div class="flex items-center justify-between mb-2">
+                <h2 class="text-gray-500 text-xs font-semibold uppercase tracking-wide">Monthly Active Users</h2>
+                <span class="text-purple-500 text-2xl">📅</span>
+            </div>
+            <p id="mau" class="text-4xl font-bold text-gray-800">0</p>
+            <p class="text-xs text-gray-500 mt-2">Last 30 days</p>
+        </div>
+
+        <!-- New Users -->
+        <div class="bg-white shadow-lg rounded-xl p-6 border-l-4 border-orange-500 hover:shadow-xl transition-shadow duration-300">
+            <div class="flex items-center justify-between mb-2">
+                <h2 class="text-gray-500 text-xs font-semibold uppercase tracking-wide">New Users</h2>
+                <span class="text-orange-500 text-2xl">👥</span>
+            </div>
+            <p id="new_users_month" class="text-4xl font-bold text-gray-800">0</p>
+            <p class="text-xs text-gray-500 mt-2">This month</p>
+        </div>
+
+        <!-- AI Users Today -->
+        <div class="bg-white shadow-lg rounded-xl p-6 border-l-4 border-red-500 hover:shadow-xl transition-shadow duration-300">
+            <div class="flex items-center justify-between mb-2">
+                <h2 class="text-gray-500 text-xs font-semibold uppercase tracking-wide">AI Users Today</h2>
+                <span class="text-red-500 text-2xl">🤖</span>
+            </div>
+            <p id="ai_users_today" class="text-4xl font-bold text-gray-800">0</p>
+            <p class="text-xs text-gray-500 mt-2">Active AI sessions</p>
+        </div>
+
+        <!-- AI Users Month -->
+        <div class="bg-white shadow-lg rounded-xl p-6 border-l-4 border-indigo-500 hover:shadow-xl transition-shadow duration-300">
+            <div class="flex items-center justify-between mb-2">
+                <h2 class="text-gray-500 text-xs font-semibold uppercase tracking-wide">AI Users Monthly</h2>
+                <span class="text-indigo-500 text-2xl">🎯</span>
+            </div>
+            <p id="ai_users_month" class="text-4xl font-bold text-gray-800">0</p>
+            <p class="text-xs text-gray-500 mt-2">This month</p>
+        </div>
+
+        <!-- AI Messages Month -->
+        <div class="bg-white shadow-lg rounded-xl p-6 border-l-4 border-pink-500 hover:shadow-xl transition-shadow duration-300">
+            <div class="flex items-center justify-between mb-2">
+                <h2 class="text-gray-500 text-xs font-semibold uppercase tracking-wide">AI Messages</h2>
+                <span class="text-pink-500 text-2xl">💬</span>
+            </div>
+            <p id="ai_messages_month" class="text-4xl font-bold text-gray-800">0</p>
+            <p class="text-xs text-gray-500 mt-2">This month</p>
+        </div>
+
+    </div>
+
+
+    <!-- ===================== CHARTS SECTION ===================== -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
+
+        <!-- USER ACTIVITY CHART -->
+        <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow duration-300">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="mr-2">📊</span> User Activity Overview
+            </h2>
+            <div class="h-80">
+                <canvas id="activityChart"></canvas>
+            </div>
+        </div>
+
+        <!-- AI USAGE CHART -->
+        <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow duration-300">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="mr-2">🤖</span> AI Assistant Usage Overview
+            </h2>
+            <div class="h-80">
+                <canvas id="aiChart"></canvas>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ===================== USER TABLE ===================== -->
+    <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow duration-300">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-2xl font-bold text-gray-800">Registered Users</h2>
+            <span class="text-sm text-gray-500 bg-gray-100 px-4 py-2 rounded-full">Total: <span id="userCount">0</span></span>
+        </div>
+
+        <div class="overflow-x-auto">
+            <table class="w-full">
+                <thead>
+                    <tr class="bg-gradient-to-r from-gray-50 to-gray-100 border-b-2 border-gray-200">
+                        <th class="p-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">ID</th>
+                        <th class="p-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Name</th>
+                        <th class="p-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Email</th>
+                        <th class="p-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Phone</th>
+                    </tr>
+                </thead>
+
+                <tbody id="userTableBody">
+                    <!-- Dynamic content will be loaded here -->
+                    <!-- {% for u in users %} -->
+                    <tr class="border-b border-gray-200 hover:bg-blue-50 transition-colors duration-200">
+                        <td class="p-4 text-sm text-gray-700">1</td>
+                        <td class="p-4 text-sm font-medium text-gray-800">Sample User</td>
+                        <td class="p-4 text-sm text-gray-600">user@example.com</td>
+                        <td class="p-4 text-sm text-gray-600">+1234567890</td>
+                    </tr>
+                    <!-- {% endfor %} -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Logout Button -->
+    <div class="mt-8 text-center">
+        <a href="{{ url_for('admin.admin_logout') }}" class="inline-block bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+            🚪 Logout
+        </a>
+    </div>
+
+</div>
+
+
+<!-- ===================== FETCH ANALYTICS DATA ===================== -->
+<script>
+fetch("/admin/api/analytics")
+  .then(res => res.json())
+  .then(data => {
+
+    // ---- Update Card Values ----
+    document.getElementById("dau").textContent = data.dau || 0;
+    document.getElementById("wau").textContent = data.wau || 0;
+    document.getElementById("mau").textContent = data.mau || 0;
+    document.getElementById("new_users_month").textContent = data.new_users_month || 0;
+    document.getElementById("ai_users_today").textContent = data.ai_users_today || 0;
+    document.getElementById("ai_users_month").textContent = data.ai_users_month || 0;
+    document.getElementById("ai_messages_month").textContent = data.ai_messages_month || 0;
+
+
+    // ---- Activity Chart ----
+    new Chart(document.getElementById("activityChart"), {
+        type: "bar",
+        data: {
+            labels: ["Daily Active", "Weekly Active", "Monthly Active"],
+            datasets: [{
+                label: "User Activity",
+                data: [data.dau, data.wau, data.mau],
+                backgroundColor: ["#3b82f6", "#10b981", "#8b5cf6"],
+                borderRadius: 8,
+                barThickness: 60
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.05)'
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false
+                    }
+                }
+            }
+        }
+    });
+
+    // ---- AI Chart ----
+    new Chart(document.getElementById("aiChart"), {
+        type: "bar",
+        data: {
+            labels: ["AI Users Today", "AI Users Month", "AI Messages"],
+            datasets: [{
+                label: "AI Assistant Usage",
+                data: [data.ai_users_today, data.ai_users_month, data.ai_messages_month],
+                backgroundColor: ["#ef4444", "#6366f1", "#ec4899"],
+                borderRadius: 8,
+                barThickness: 60
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.05)'
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false
+                    }
+                }
+            }
+        }
+    });
+
+  })
+  .catch(err => console.error("Error fetching analytics:", err));
+</script>
+
+</body>
+</html>

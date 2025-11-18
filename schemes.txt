@@ -1,0 +1,3448 @@
+================================================================================
+         COMPREHENSIVE INDIA FARMER SCHEMES DATASET 2024-2025
+================================================================================
+
+TABLE OF CONTENTS
+=================
+1. CENTRAL GOVERNMENT SCHEMES (40+ Schemes)
+2. STATE GOVERNMENT SCHEMES (Major States)
+3. QUICK REFERENCE - SCHEME CATEGORIES
+
+
+================================================================================
+SECTION 1: CENTRAL GOVERNMENT SCHEMES
+================================================================================
+
+SCHEME 1: PRADHAN MANTRI KISAN SAMMAN NIDHI (PM-KISAN)
+------------------------------------------------------
+Launch Year: December 2018
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Income Support
+Status: Active (20th installment released August 2025)
+
+OBJECTIVE:
+Direct income support to all landholding farmers to supplement financial needs for procuring agricultural inputs and ensuring proper crop health
+
+FINANCIAL BENEFIT:
+- ₹6,000 per year per farmer family
+- Paid in 3 equal installments of ₹2,000 each (every 4 months)
+- Direct Benefit Transfer to Aadhaar-linked bank accounts
+
+ELIGIBILITY:
+- All landholding farmers (initially for small & marginal farmers only)
+- Extended to all farmers regardless of land size from June 2019
+- State/UT governments identify eligible farmer families
+
+BENEFICIARIES: Over 9 crore farmers
+TOTAL DISBURSEMENT: Over ₹3.45 lakh crore (as of 18th installment)
+
+KEY FEATURES:
+- Central Sector Scheme (100% funded by Government of India)
+- Aadhaar linking and e-KYC mandatory
+- No restrictions on utilization of funds
+- Protects farmers from moneylenders
+
+EXCLUSIONS:
+- Government employees and their families
+- Income taxpayers
+- Professional practitioners (doctors, lawyers, CAs, engineers, architects)
+- Present/former MPs, MLAs, Ministers, Constitutional post holders
+- Retired pensioners with pension ≥ ₹10,000/month
+
+APPLICATION MODE: Online via PM-KISAN portal (pmkisan.gov.in)
+HELPLINE: PM-KISAN helpline
+
+
+SCHEME 2: PRADHAN MANTRI FASAL BIMA YOJANA (PMFBY)
+-------------------------------------------------
+Launch Year: April 2016
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Crop Insurance
+Status: Active
+
+OBJECTIVE:
+Provide comprehensive insurance coverage against crop losses due to natural calamities, pests, and diseases
+
+FINANCIAL BENEFIT:
+Premium rates (paid by farmers):
+- Kharif crops: 2% of sum insured
+- Rabi crops: 1.5% of sum insured
+- Horticultural/Commercial crops: 5% of sum insured
+- Balance premium subsidized by Central and State governments
+
+SPECIAL PROVISIONS:
+- In Assam: Farmer share of premium up to 1 hectare is fully subsidized (₹1 only)
+- Covers pre-sowing to post-harvest risks
+- Add-on coverage for localized calamities
+
+ELIGIBILITY:
+All farmers (loanee and non-loanee)
+
+COVERAGE UNIT: Block/Gram Panchayat level
+
+KEY FEATURES:
+- Technology-enabled claims settlement
+- Use of smartphones, drones, remote sensing for crop loss assessment
+- Weather-based triggers for faster payouts
+- Coverage for prevented sowing, post-harvest losses
+
+APPLICATION MODE: Online via PMFBY portal, Common Service Centers, banks
+WEBSITE: pmfby.gov.in
+
+
+SCHEME 3: PRADHAN MANTRI KISAN MAANDHAN YOJANA (PM-KMY)
+------------------------------------------------------
+Launch Year: September 2019
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Old Age Pension
+Status: Active
+
+OBJECTIVE:
+Provide old age social security and pension support to small and marginal farmers
+
+FINANCIAL BENEFIT:
+- ₹3,000 monthly pension after attaining 60 years of age
+- Contributory pension scheme
+
+ELIGIBILITY:
+- Small and marginal farmers (up to 2 hectares landholding)
+- Entry age: 18-40 years
+- Monthly contribution based on entry age (₹55 to ₹200 per month)
+- Equal contribution by Central Government
+
+KEY FEATURES:
+- Pension guaranteed by Government of India
+- Linked with LIC as pension fund manager
+- Family pension provision on death
+- Voluntary enrollment and exit
+
+APPLICATION MODE: Through Common Service Centers and online portal
+WEBSITE: maandhan.in
+
+
+SCHEME 4: KISAN CREDIT CARD (KCC) SCHEME
+---------------------------------------
+Launch Year: 1998 (Revised and strengthened)
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Credit Support
+Status: Active
+
+OBJECTIVE:
+Provide adequate and timely credit support to farmers for agricultural operations
+
+FINANCIAL BENEFIT:
+- Short-term crop loans at 7% interest rate
+- Interest subvention of 2% for prompt repayment (effective rate: 4%)
+- Additional 3% interest subvention for timely repayment
+- Credit limit based on cropping pattern and scale of finance
+
+COVERAGE:
+- Crop cultivation (agricultural activities)
+- Post-harvest expenses
+- Produce marketing loan
+- Consumption needs of farmer household
+- Working capital for maintenance of farm assets
+- Investment credit for agriculture and allied activities
+- Animal husbandry, fisheries, dairy
+
+ELIGIBILITY:
+All farmers (individual/joint borrowers, tenant farmers, oral lessees, sharecroppers)
+
+KEY FEATURES:
+- Single window facility
+- Revolving cash credit
+- Simplified documentation
+- Flexibility in withdrawals and repayments
+- Insurance coverage (Crop and Personal Accident)
+
+APPLICATION MODE: Through all scheduled commercial banks, RRBs, cooperative banks
+TARGET: Saturation coverage of all eligible farmers
+
+
+SCHEME 5: SOIL HEALTH CARD SCHEME
+--------------------------------
+Launch Year: February 19, 2015
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Soil Management
+Status: Active
+Duration: 3 years (2015-2018), now continuing
+Outlay: ₹568 crore
+
+OBJECTIVE:
+Assess soil health and provide crop-wise recommendations to improve soil fertility and productivity
+
+MOTTO: "Swasth Dhara, Khet Haraa" (Healthy Soil, Green Fields)
+
+FINANCIAL BENEFIT:
+- Free soil testing
+- Printed Soil Health Card for each farmer
+- Crop-wise nutrient recommendations
+
+SOIL PARAMETERS TESTED (12):
+1. Nitrogen (N)
+2. Phosphorus (P)
+3. Potassium (K)
+4. Sulphur (S)
+5. INTEREST-FREE CROP LOAN:
+   - Up to ₹50,000 per family
+   - 0% interest for timely repayment
+   - State pays interest subvention
+
+BENEFICIARIES: Over 50 lakh farming families
+
+KEY FEATURES:
+- Comprehensive support system
+- Covers landless agricultural workers
+- Social security net
+- Quick disbursal through DBT
+- Financial inclusion
+
+ELIGIBILITY:
+Small, marginal, and landless agricultural households in Odisha
+
+
+STATE: ANDHRA PRADESH
+====================
+
+SCHEME 1: YSR RYTHU BHAROSA
+--------------------------
+Launch Year: 2019
+Department: Agriculture Department, Andhra Pradesh
+Type: Investment Support
+Status: Active
+
+FINANCIAL BENEFIT:
+- ₹13,500 per year per farmer
+- Paid in installments
+- Direct Benefit Transfer to bank accounts
+
+ELIGIBILITY:
+All farmers (landowners and tenant farmers)
+
+KEY FEATURES:
+- Includes tenant farmers (unique feature)
+- Higher than PM-KISAN (when added together, farmers get ₹19,500)
+- 100% state-funded
+- Regular and timely disbursement
+
+BENEFICIARIES: Over 50 lakh farmers
+
+
+SCHEME 2: YSR SUNNA VADDI PANTA RUNALU (ZERO INTEREST LOANS)
+-----------------------------------------------------------
+Department: Agriculture Department, Andhra Pradesh
+Type: Credit Support
+Status: Active
+
+FINANCIAL BENEFIT:
+- Interest-free crop loans up to ₹1.5 lakh
+- State government pays interest
+- Additional ₹50,000 loans for allied activities
+
+ELIGIBILITY:
+All farmers in Andhra Pradesh
+
+KEY FEATURES:
+- Zero burden of interest
+- Promotes timely credit access
+- Reduces farmer debt burden
+- State compensates banks for interest loss
+
+
+SCHEME 3: PRADHAN MANTRI FASAL BIMA YOJANA - AP ENHANCEMENT
+----------------------------------------------------------
+Type: Insurance Enhancement
+Status: Active
+
+FINANCIAL BENEFIT:
+- State government pays farmer's premium share
+- Farmers get crop insurance effectively free
+- Full coverage under PMFBY
+
+COVERAGE:
+All notified crops in Andhra Pradesh
+
+KEY FEATURE:
+State bears farmer's premium making it completely free for farmers
+
+
+STATE: PUNJAB
+=============
+
+SCHEME 1: CROP DIVERSIFICATION PROGRAMME
+---------------------------------------
+Department: Agriculture Department, Punjab
+Type: Production Support
+Status: Active
+
+OBJECTIVE:
+Reduce area under paddy and promote crop diversification for groundwater conservation
+
+FINANCIAL BENEFIT:
+- ₹4,000 to ₹7,000 per acre incentive
+- For shifting from paddy to alternative crops
+- Varies by crop (maize, pulses, oilseeds, cotton, vegetables)
+
+ELIGIBILITY:
+Farmers in Punjab willing to diversify from paddy
+
+KEY FEATURES:
+- Addresses groundwater depletion
+- Promotes sustainable agriculture
+- Additional income support
+- Technical guidance for alternative crops
+
+
+SCHEME 2: PANI BACHAO, PAISA KAMAO (SAVE WATER, EARN MONEY)
+----------------------------------------------------------
+Department: Water Resources Department, Punjab
+Type: Water Conservation Incentive
+Status: Active
+
+FINANCIAL BENEFIT:
+- ₹10,000 per acre incentive
+- For farmers adopting drip/sprinkler irrigation
+- Additional subsidy on irrigation equipment
+
+OBJECTIVE:
+Conserve groundwater through efficient irrigation
+
+ELIGIBILITY:
+All farmers in Punjab
+
+KEY FEATURES:
+- Direct cash incentive for water saving
+- Promotes micro-irrigation
+- Groundwater conservation
+- Reduced electricity costs
+
+
+STATE: HARYANA
+=============
+
+SCHEME 1: BHAVANTAR BHARPAI YOJANA (BBY)
+---------------------------------------
+Launch Year: 2018
+Department: Agriculture & Farmers Welfare Department, Haryana
+Type: Price Deficiency Payment
+Status: Active (Seasonal implementation)
+
+OBJECTIVE:
+Protect farmers from distress sale of horticulture crops
+
+COVERED CROPS:
+Tomato, potato, onion, cauliflower, cabbage, carrot, peas, brinjal, okra, bottle gourd, and others (total 21 vegetables)
+
+FINANCIAL BENEFIT:
+- Direct payment of difference between MSP/Fair Remunerative Price (FRP) and actual market price
+- Compensation paid if market price falls below MSP
+- Based on modal price in mandis
+
+ELIGIBILITY:
+All farmers selling in notified mandis in Haryana
+
+KEY FEATURES:
+- Protects vegetable growers from price crash
+- No physical procurement by government
+- Farmer sells in open market
+- Electronic registration in mandis
+- Quick payment through DBT
+
+LIMITATIONS:
+- Registration required at time of sale
+- Maximum limit per farmer per crop
+- Only for notified mandis
+
+
+SCHEME 2: MERI FASAL MERA BYORA (MY CROP, MY DETAILS)
+----------------------------------------------------
+Launch Year: 2019
+Department: Agriculture & Farmers Welfare, Haryana
+Type: Digital Database
+Status: Active
+
+OBJECTIVE:
+Create comprehensive farmers and crop database for better scheme implementation
+
+FEATURES:
+- Online registration of farmers
+- Land details
+- Crop sown information
+- Bank account linkage
+- Real-time data for government
+
+BENEFITS FOR FARMERS:
+- One-time registration for all schemes
+- Automatic eligibility for benefits
+- Quick disbursement of payments
+- Crop insurance enrollment
+- Natural calamity compensation
+
+MANDATORY FOR:
+- All farmers seeking government benefits
+- Crop insurance
+- MSP procurement
+
+PORTAL: fasalhry.in
+
+
+STATE: MADHYA PRADESH
+====================
+
+SCHEME 1: MUKHYAMANTRI KISAN KALYAN YOJANA
+-----------------------------------------
+Launch Year: 2019
+Department: Agriculture Department, MP
+Type: Income Support
+Status: Active
+
+FINANCIAL BENEFIT:
+- ₹4,000 per year per farmer
+- Supplementary to PM-KISAN
+- Two installments of ₹2,000 each
+- Direct transfer to bank accounts
+
+ELIGIBILITY:
+All landholding farmers in Madhya Pradesh
+
+KEY FEATURES:
+- Additional support to PM-KISAN (total ₹10,000 per year)
+- State-funded scheme
+- Benefits small and marginal farmers
+- Quick disbursal system
+
+BENEFICIARIES: Over 80 lakh farmers
+
+
+SCHEME 2: BALRAM TAL YOJANA
+--------------------------
+Department: Agriculture Department, MP
+Type: Water Conservation
+Status: Active
+
+FINANCIAL BENEFIT:
+- 40% subsidy on farm ponds
+- 50% for SC/ST farmers
+- Up to maximum prescribed limits
+
+OBJECTIVE:
+Rainwater harvesting and conservation for irrigation
+
+SPECIFICATIONS:
+- Various sizes available (60 x 40 x 3 m, etc.)
+- Lined ponds preferred
+- Capacity-based subsidy
+
+ELIGIBILITY:
+Farmers with minimum land holding
+
+KEY FEATURES:
+- Own irrigation source
+- Reduces crop failure risk
+- Groundwater recharge
+- Additional income from fish farming possible
+
+
+STATE: WEST BENGAL
+=================
+
+SCHEME: KRISHAK BANDHU
+---------------------
+Launch Year: January 1, 2019
+Department: Agriculture Department, West Bengal
+Type: Income Support & Life Insurance
+Status: Active
+
+TWO COMPONENTS:
+
+1. KRISHAK BANDHU (INCOME SUPPORT):
+   - ₹5,000 per acre per year (maximum ₹10,000 per year)
+   - Two installments (Kharif ₹2,500 + Rabi ₹2,500)
+   - For up to 2 acres
+   - All categories of farmers
+
+2. KRISHAK BANDHU (DEATH BENEFIT):
+   - ₹2 lakh for death due to any cause
+   - Age: 18-60 years
+   - One-time ex-gratia payment to family
+
+ELIGIBILITY:
+All farmers in West Bengal (landowners and sharecroppers)
+
+KEY FEATURES:
+- Includes sharecroppers and bargadars
+- Aadhaar-linked payments
+- Free life insurance component
+- State-funded (100%)
+
+BENEFICIARIES: Over 70 lakh farmers
+
+
+STATE: JHARKHAND
+===============
+
+SCHEME: MUKHYAMANTRI KRISHI ASHIRWAD YOJANA
+------------------------------------------
+Launch Year: December 2019
+Department: Agriculture Department, Jharkhand
+Type: Income Support
+Status: Active
+
+FINANCIAL BENEFIT:
+- ₹5,000 per acre per year
+- Maximum ₹25,000 per farmer
+- For up to 5 acres
+- One installment during Kharif season
+
+ELIGIBILITY:
+Small and marginal farmers in Jharkhand
+
+KEY FEATURES:
+- Focus on Kharif season support
+- Higher maximum limit (5 acres)
+- State-funded scheme
+- Direct Benefit Transfer
+
+BENEFICIARIES: Around 22 lakh farmers
+
+
+STATE: KARNATAKA
+===============
+
+SCHEME: RAITHA SURAKSHA PRADHAN MANTRI FASAL BIMA YOJANA
+-------------------------------------------------------
+Department: Agriculture Department, Karnataka
+Type: Insurance Enhancement
+Status: Active
+
+FINANCIAL BENEFIT:
+- State government bears farmer's premium share
+- Additional top-up coverage
+- Enhanced compensation for crop loss
+
+COVERAGE:
+All notified crops under PMFBY in Karnataka
+
+KEY FEATURES:
+- Zero premium burden on farmers
+- Better compensation ratios
+- State bears full farmer contribution
+- Additional support for natural calamities
+
+
+STATE: RAJASTHAN
+===============
+
+SCHEME 1: MUKHYAMANTRI KISAN MITRA URJA YOJANA
+---------------------------------------------
+Launch Year: 2021
+Department: Energy Department, Rajasthan
+Type: Electricity Subsidy
+Status: Active
+
+FINANCIAL BENEFIT:
+- Up to ₹1,000 per month for agricultural electricity bills
+- Maximum ₹12,000 per year
+- Bill subsidy for metered connections
+
+ELIGIBILITY:
+Farmers with agricultural electricity connections in Rajasthan
+
+KEY FEATURES:
+- Reduces power cost for irrigation
+- Direct subsidy on bills
+- Monthly benefit
+- Helps small farmers most
+
+APPLICATION: Automatic for registered farmers
+
+
+SCHEME 2: RAJASTHAN KRISHI UPAJ RINN YOJANA
+------------------------------------------
+Department: Cooperation Department, Rajasthan
+Type: Credit Support
+Status: Active
+
+FINANCIAL BENEFIT:
+- Short-term crop loans up to ₹3 lakh at 0% interest
+- State pays interest subvention
+- Additional incentive for timely repayment
+
+ELIGIBILITY:
+All farmers in Rajasthan through cooperative banks
+
+KEY FEATURES:
+- Zero interest burden
+- Promotes timely credit use
+- Reduces exploitation by moneylenders
+- Quick loan processing
+
+
+STATE: CHHATTISGARH
+==================
+
+SCHEME 1: RAJIV GANDHI KISAN NYAY YOJANA
+---------------------------------------
+Launch Year: May 21, 2020
+Department: Agriculture Department, Chhattisgarh
+Type: Input Subsidy
+Status: Active
+Budget: ₹5,600 crore (annual)
+
+FINANCIAL BENEFIT:
+- ₹9,000 per acre for paddy (irrigated)
+- ₹10,000 per acre for maize
+- ₹10,000 per acre for sugarcane
+- ₹9,000 per acre for arhar, moong, urad, kulthi, tur
+- Rates vary by crop
+
+ELIGIBILITY:
+All farmers in Chhattisgarh growing covered crops
+
+KEY FEATURES:
+- Input cost support
+- Crop-specific differential rates
+- Encourages diversification
+- Direct cash transfer
+- Comprehensive coverage of crops
+
+BENEFICIARIES: Over 22 lakh farmers
+
+
+SCHEME 2: GODHAN NYAY YOJANA
+---------------------------
+Launch Year: July 20, 2020
+Department: Agriculture Department, Chhattisgarh
+Type: Cattle Dung Procurement
+Status: Active (Unique scheme)
+
+FINANCIAL BENEFIT:
+- Government purchases cattle dung at ₹2 per kg
+- Used for vermi-compost and organic manure production
+- Additional income for farmers and cattle owners
+
+ELIGIBILITY:
+All cattle owners including landless farmers and women SHGs
+
+KEY FEATURES:
+- Unique scheme (first in India)
+- Promotes organic farming
+- Additional income source
+- Women SHG employment in vermi-compost production
+- Waste to wealth
+- Reduces stubble burning
+
+PROCUREMENT CENTERS: Gauthans (cattle shelters) in villages
+
+
+STATE: KERALA
+============
+
+SCHEME: INTEREST-FREE LOAN FOR FARMERS
+-------------------------------------
+Department: Agriculture Department, Kerala
+Type: Credit Support
+Status: Active
+
+FINANCIAL BENEFIT:
+- Crop loans up to ₹2 lakh at 0% interest
+- State pays full interest subvention
+- For agricultural and allied activities
+
+ELIGIBILITY:
+All farmers in Kerala
+
+KEY FEATURES:
+- Zero interest burden
+- Promotes formal credit
+- Supports small farmers
+- Timely credit availability
+
+
+STATE: TAMIL NADU
+================
+
+SCHEME: UZHAVAR PADHUKAPPU THITTAM (FARMER PROTECTION SCHEME)
+------------------------------------------------------------
+Department: Agriculture Department, Tamil Nadu
+Type: Crop Insurance
+Status: Active
+
+FINANCIAL BENEFIT:
+- Enhanced crop insurance coverage
+- State pays farmer's premium share
+- Additional compensation for natural calamities
+- ₹2 lakh personal accident cover
+
+ELIGIBILITY:
+All farmers in Tamil Nadu
+
+KEY FEATURES:
+- Comprehensive protection
+- Zero premium for farmers
+- Quick claim settlement
+- Personal accident insurance included
+
+
+STATE: GUJARAT
+=============
+
+SCHEME 1: MUKHYAMANTRI KISAN SAHAY YOJANA
+----------------------------------------
+Launch Year: 2020
+Department: Revenue Department, Gujarat
+Type: Natural Calamity Relief
+Status: Active
+
+FINANCIAL BENEFIT:
+BASED ON CROP LOSS PERCENTAGE:
+- 33% to 60% loss: ₹20,000 per hectare
+- 60% to 100% loss: ₹25,000 per hectare
+- Maximum: 4 hectares per farmer
+
+TRIGGERS:
+Unseasonal rains, untimely rains, droughts, hailstorms, cyclones, natural fire
+
+ELIGIBILITY:
+All farmers in Gujarat (no premium payment required)
+
+KEY FEATURES:
+- Non-insurance based compensation
+- Quick assessment and payment
+- Uses technology (satellite, drones)
+- No premium burden
+- Supplements PMFBY
+
+
+SCHEME 2: SOIL HEALTH CARD - GUJARAT ENHANCEMENT
+-----------------------------------------------
+Type: Enhanced Soil Testing
+Status: Active
+
+FEATURES:
+- Free advanced soil testing
+- 20+ parameters tested
+- Mobile soil testing labs
+- Quick results (within 7 days)
+- Crop-specific recommendations
+- Micro-nutrient analysis
+
+BENEFIT:
+Helps optimize fertilizer use and costs
+
+
+STATE: MAHARASHTRA
+=================
+
+SCHEME 1: MAHATMA JYOTIBA PHULE SHETKARI KARJMUKTI YOJANA
+--------------------------------------------------------
+Launch Year: 2023
+Department: Cooperation Department, Maharashtra
+Type: Loan Waiver
+Status: Implemented
+
+FINANCIAL BENEFIT:
+- Loan waiver up to ₹2 lakh per farmer
+- Covers crop loans from cooperative banks
+- State government compensates banks
+
+ELIGIBILITY:
+Small and marginal farmers with outstanding crop loans
+
+
+SCHEME 2: JALYUKT SHIVAR ABHIYAN
+-------------------------------
+Launch Year: 2014
+Department: Water Conservation Department, Maharashtra
+Type: Water Conservation
+Status: Active (Extended)
+
+OBJECTIVE:
+Make Maharashtra drought-free through water conservation
+
+COMPONENTS:
+- Deepening and widening of streams
+- Cement and earthen stop dams
+- Farm ponds and percolation tanks
+- Desilting of water bodies
+- Watershed development
+
+FINANCIAL BENEFIT:
+- Government funding for village-level projects
+- Convergence with MGNREGA
+- Community participation
+
+IMPACT:
+- Increased water availability
+- Improved irrigation
+- Groundwater recharge
+- Reduced migration
+
+
+STATE: UTTAR PRADESH
+===================
+
+SCHEME 1: KISAN KALYAN MISSION
+-----------------------------
+Department: Agriculture Department, UP
+Type: Comprehensive Development
+Status: Active
+
+COMPONENTS:
+- Soil health improvement
+- Seed distribution
+- Equipment subsidy
+- Marketing support
+- Training programs
+
+FINANCIAL BENEFIT:
+- Various subsidies on inputs
+- Free soil testing
+- Subsidized equipment
+- Insurance support
+
+
+SCHEME 2: MUKHYAMANTRI KHET SURAKSHA YOJANA
+------------------------------------------
+Department: Agriculture Department, UP
+Type: Fire Prevention
+Status: Active
+
+OBJECTIVE:
+Prevent farm fires and stubble burning
+
+FINANCIAL BENEFIT:
+- 50-80% subsidy on agricultural machinery
+- For stubble management equipment
+- Includes happy seeder, super seeder, zero-till drill, balers
+
+ELIGIBILITY:
+Farmers in UP, especially in fire-prone districts
+
+KEY FEATURES:
+- Addresses air pollution
+- Sustainable residue management
+- Soil health improvement
+
+
+STATE: BIHAR
+===========
+
+SCHEME 1: DIESEL ANUDAN YOJANA (DIESEL SUBSIDY)
+----------------------------------------------
+Department: Agriculture Department, Bihar
+Type: Fuel Subsidy
+Status: Active
+
+FINANCIAL BENEFIT:
+- ₹50 per liter subsidy on diesel for agricultural use
+- For tube well irrigation
+- Maximum 1200 liters per year per farmer (varies by season)
+
+ELIGIBILITY:
+Farmers in Bihar with diesel pump sets
+
+KEY FEATURES:
+- Direct subsidy transfer
+- Registration required on DBT portal
+- Reduces irrigation cost
+- Benefits small farmers most
+
+
+SCHEME 2: KRISHI YANTRA ANUDAN YOJANA
+------------------------------------
+Department: Agriculture Department, Bihar
+Type: Equipment Subsidy
+Status: Active
+
+FINANCIAL BENEFIT:
+- 40% to 80% subsidy on agricultural equipment
+- Higher for SC/ST farmers
+- Covers tractors, tillers, harvesters, sprayers, etc.
+
+ELIGIBILITY:
+All farmers in Bihar
+
+APPLICATION: Online through DBT Agriculture portal
+
+
+================================================================================
+SECTION 3: QUICK REFERENCE - SCHEME CATEGORIES
+================================================================================
+
+INCOME SUPPORT SCHEMES:
+----------------------
+1. PM-KISAN (Central) - ₹6,000/year
+2. Rythu Bandhu (Telangana) - ₹10,000/acre/year
+3. KALIA (Odisha) - ₹25,000/year
+4. YSR Rythu Bharosa (AP) - ₹13,500/year
+5. Krishak Bandhu (West Bengal) - ₹5,000/acre/year
+6. CM Kisan Kalyan Yojana (MP) - ₹4,000/year
+7. CM Krishi Ashirwad (Jharkhand) - ₹25,000/year (max)
+8. Rajiv Gandhi Kisan Nyay (Chhattisgarh) - Crop-wise support
+
+INSURANCE SCHEMES:
+-----------------
+1. PM Fasal Bima Yojana (PMFBY) - Crop insurance
+2. PM Kisan Maandhan Yojana (PM-KMY) - Pension ₹3,000/month
+3. Rythu Bheema (Telangana) - ₹5 lakh life cover
+4. KALIA Life Insurance (Odisha) - ₹2 lakh cover
+5. Krishak Bandhu Death Benefit (WB) - ₹2 lakh
+6. Uzhavar Padhukappu (Tamil Nadu) - Enhanced crop + accident insurance
+7. CM Kisan Sahay Yojana (Gujarat) - Natural calamity compensation
+
+CREDIT SUPPORT SCHEMES:
+----------------------
+1. Kisan Credit Card (KCC) - 7% interest (4% effective)
+2. Modified Interest Subvention Scheme - 7% rate, 3% incentive
+3. Agriculture Infrastructure Fund - ₹1 lakh crore with 3% subvention
+4. YSR Sunna Vaddi (AP) - Zero interest up to ₹1.5 lakh
+5. KALIA Interest-Free Loan (Odisha) - Up to ₹50,000
+6. Interest Subvention (Kerala) - 0% up to ₹2 lakh
+7. Rajasthan Krishi Upaj Rinn - 0% up to ₹3 lakh
+8. AHIDF - ₹15,000 crore for animal husbandry infrastructure
+
+TECHNOLOGY & INFRASTRUCTURE:
+---------------------------
+1. Digital Agriculture Mission - ₹2,817 crore
+2. e-NAM - Online agricultural marketing
+3. PM-KUSUM - Solar power for agriculture
+4. Namo Drone Didi - 80% subsidy on drones for women SHGs
+5. SMAM - 40-50% subsidy on farm machinery
+6. Gramin Bhandaran Yojana - 15-33% subsidy on warehouses
+7. Agriculture Infrastructure Fund - Post-harvest infrastructure
+8. Meri Fasal Mera Byora (Haryana) - Digital database
+
+SOIL & WATER MANAGEMENT:
+-----------------------
+1. Soil Health Card Scheme - Free soil testing
+2. PM Krishi Sinchayee Yojana - Irrigation infrastructure
+3. National Mission on Sustainable Agriculture
+4. Rainfed Area Development Programme
+5. Pani Bachao Paisa Kamao (Punjab) - Water conservation incentive
+6. Balram Tal (MP) - Farm pond subsidy
+7. Jalyukt Shivar (Maharashtra) - Drought-proofing
+
+CROP-SPECIFIC SCHEMES:
+---------------------
+1. National Food Security Mission - Rice, wheat, pulses, coarse cereals
+2. NMEO - Oil Palm - Edible oil production
+3. National Beekeeping & Honey Mission
+4. Mission for Integrated Development of Horticulture (MIDH)
+5. Paramparagat Krishi Vikas Yojana - Organic farming
+6. Crop Diversification (Punjab) - Alternative to paddy
+7. Bhavantar Bharpai Yojana (Haryana) - Vegetable price support
+
+LIVESTOCK & ALLIED:
+------------------
+1. Sustainable Livestock Health & Production - ₹1,702 crore
+2. National Livestock Mission
+3. PMMSY - Fisheries development (₹20,050 crore)
+4. National Dairy Development Programme
+5. Rashtriya Gokul Mission - Indigenous breeds
+6. AHIDF - Infrastructure for dairy, meat, feed
+7. Blue Revolution - Fisheries
+8. Godhan Nyay (Chhattisgarh) - Cattle dung procurement at ₹2/kg
+
+RESEARCH & EDUCATION:
+--------------------
+1. Crop Science for Food Security - ₹3,979 crore
+2. Agricultural Education Strengthening - ₹2,291 crore
+3. Krishi Vigyan Kendra - 725+ training centers
+4. Horticulture Development - ₹860 crore
+
+FARMER ORGANIZATION:
+-------------------
+1. Formation of 10,000 FPOs - ₹6,865 crore
+2. FPO equity grant - Up to ₹15 lakh
+3. FPO credit guarantee - Up to ₹2 crore
+
+MARKETING & PRICE SUPPORT:
+-------------------------
+1. PM-AASHA - MSP procurement & price deficiency payment
+2. e-NAM - 1,361 mandis integrated
+3. Bhavantar Bharpai (Haryana) - Vegetable price deficiency
+4. Minimum Support Price (MSP) - For 23 crops
+
+STATE ELECTRICITY SUBSIDIES:
+---------------------------
+1. CM Kisan Mitra Urja (Rajasthan) - ₹12,000/year
+2. Diesel Anudan (Bihar) - ₹50/liter subsidy
+3. Various state power subsidies for agriculture
+
+DISASTER RELIEF & COMPENSATION:
+------------------------------
+1. CM Kisan Sahay Yojana (Gujarat) - ₹20,000-25,000/hectare
+2. NDRF support through states
+3. Crop insurance claims under PMFBY
+4. State-specific calamity relief funds
+
+
+================================================================================
+IMPORTANT HELPLINES & WEBSITES
+================================================================================
+
+CENTRAL SCHEMES:
+- PM-KISAN: pmkisan.gov.in | 155261 / 011-24300606
+- PMFBY: pmfby.gov.in | 011-23382012
+- PM-KMY: maandhan.in
+- KCC: Contact nearest bank
+- e-NAM: enam.gov.in | 1800-270-0224
+- AIF: agriinfra.dac.gov.in
+- Kisan Call Center: 1800-180-1551
+- Ministry of Agriculture: agricoop.nic.in
+
+STATE PORTALS:
+- Telangana: rythubandhu.telangana.gov.in
+- Odisha: kalia.co.in
+- Andhra Pradesh: navasakam.ap.gov.in
+- Haryana: fasalhry.in
+- Bihar: dbtbih.nic.in
+
+GENERAL AGRICULTURE HELPLINE: 1800-180-1551 (Toll-Free)
+
+
+================================================================================
+NOTES:
+================================================================================
+
+1. This dataset includes 40+ Central Government schemes and major schemes from 15+ states
+2. Financial benefits and eligibility criteria are subject to periodic revisions
+3. Farmers should verify current guidelines from official sources before applying
+4. Many schemes work in combination - farmers can benefit from multiple schemes
+5. Aadhaar linking is mandatory for most direct benefit transfer schemes
+6. Registration and application processes vary by scheme and state
+7. Some schemes are seasonal (Kharif/Rabi specific)
+8. State schemes supplement central schemes - total benefit is cumulative
+
+
+
+================================================================================
+ADDITIONAL SCHEMES (NEWLY DISCOVERED 2024-2025)
+================================================================================
+
+SCHEME 41: UREA SUBSIDY SCHEME
+-----------------------------
+Ministry/Department: Ministry of Chemicals & Fertilizers
+Scheme Type: Input Subsidy
+Status: Active
+
+OBJECTIVE:
+Provide farmers with urea fertilizer at affordable prices by subsidizing the difference between market price and MRP
+
+FINANCIAL BENEFIT:
+- Government pays the difference between production/import cost and Maximum Retail Price (MRP)
+- Farmers get urea at heavily subsidized rates
+- Reduces financial burden on farmers significantly
+
+ELIGIBILITY:
+All farmers across India, irrespective of land size
+
+KEY FEATURES:
+- Essential for healthy crop production
+- Ensures availability of urea at stable, affordable prices
+- Promotes sustainable farming practices
+- Reduces nitrogen deficiency in crops
+
+HOW IT WORKS:
+Government bears the subsidy burden and compensates manufacturers/importers; farmers buy at fixed MRP
+
+APPLICATION: Available at all fertilizer retailers across India
+
+
+SCHEME 42: LADLI BEHNA YOJANA (MADHYA PRADESH) - INDIRECT AGRICULTURE BENEFIT
+-----------------------------------------------------------------------------
+Launch Year: 2023
+State: Madhya Pradesh
+Department: Women & Child Development
+Type: Women Empowerment with Agriculture Impact
+Status: Active
+
+FINANCIAL BENEFIT:
+- ₹1,250 per month to eligible women (₹15,000 per year)
+- Age: 21 to 60 years
+- Direct transfer to bank accounts
+
+ELIGIBILITY:
+Women residents of Madhya Pradesh aged 21-60 years
+
+INDIRECT AGRICULTURE BENEFITS:
+- Improves household income in farming families
+- Empowers women in farming decision-making
+- Enables investment in backyard farming, poultry, dairy
+- Supports participation in Self Help Groups (SHGs)
+- Facilitates small-scale agricultural enterprises
+- Greater access to agricultural training programs
+
+KEY FEATURES:
+- Monthly cash support for rural women
+- Promotes gender equity
+- Strengthens household financial stability
+- Encourages women entrepreneurship in agriculture
+
+IMPACT ON AGRICULTURE:
+Women use funds for livestock rearing, kitchen gardens, mushroom cultivation, bee-keeping, and other allied activities
+
+
+SCHEME 43: MAHARASHTRA AI AGRICULTURE POLICY (MahaAgri-AI 2025-2029)
+-------------------------------------------------------------------
+Launch Year: June 2025
+State: Maharashtra
+Department: Agriculture Department, Maharashtra
+Type: Technology & AI Integration
+Status: Active (INDIA'S FIRST AI AGRICULTURE POLICY)
+Budget: ₹500 Crore (initial 3 years)
+
+OBJECTIVE:
+Transform Maharashtra's agriculture through Artificial Intelligence, GenAI, drones, robotics, computer vision, and predictive analytics
+
+KEY COMPONENTS:
+
+1. MAHA VISTAAR-AI PLATFORM:
+   - AI-powered multilingual chatbot in Marathi
+   - Real-time crop advisory
+   - Integrated with Agristack and Bhashini (national platforms)
+   - Accessible via mobile app, IVRS, and web portal
+   - Pest control guidance
+   - Weather advisories
+   - Sowing method recommendations
+   - Instructional videos
+
+2. AGRO DATA EXCHANGE (A-DeX):
+   - Federated, consent-based data sharing framework
+   - Connects government and private datasets
+   - Integration of:
+     * AgriStack
+     * Maha-Agritech
+     * Mahavedh
+     * Satellite imagery
+     * Export trends data
+     * Supply chain information
+     * Financial data
+
+3. AI SANDBOX ENVIRONMENT:
+   - Testing ground for startups and innovators
+   - Simulated real-world farming conditions
+   - Risk-free solution development
+
+4. GEOSPATIAL INTELLIGENCE ENGINE:
+   - High-resolution yield forecasting
+   - Waterbody monitoring
+   - Disaster mapping
+   - Crop health assessment
+   - Remote sensing capabilities
+
+5. BLOCKCHAIN TRACEABILITY SYSTEM:
+   - QR code-based tracking
+   - Initial focus: Grapes, bananas, pomegranates
+   - Food safety compliance
+   - Export quality assurance
+   - Farm-to-fork transparency
+
+6. PRECISION FARMING TOOLS:
+   - IoT-enabled irrigation systems
+   - Drone-based monitoring
+   - Sensor technology
+   - Automated pest detection
+   - Soil moisture tracking
+
+TARGET BENEFICIARIES:
+- 50,000+ farmers in initial phase
+- 1 lakh acres of land coverage
+
+INSTITUTIONAL FRAMEWORK:
+1. State-Level Steering Committee (SLSC) - headed by Chief Secretary
+2. State-Level Technical Committee (SLTC) - feasibility assessment
+3. AI and Agritech Innovation Centre
+4. Four AI Research Hubs at State Agricultural Universities
+5. Annual Global AI in Agriculture Conference & Investor Summit
+
+STARTUP & PPP SUPPORT:
+- Targeted grants for agritech startups
+- Sandbox access for testing solutions
+- Data integration support
+- Hackathons and innovation challenges
+- Public-Private Partnership models
+- Regional innovation competitions
+
+SPECIFIC SERVICES AVAILABLE:
+
+CropSAP Platform:
+- Real-time crop advice
+- WhatsApp-based updates
+
+Smart Farm Schools:
+- Training for farmers on AI tools
+- Digital literacy programs
+
+Honey Café Initiative:
+- ₹500/kg for honey procurement
+- ₹300/kg for wax
+- Establishment at tourist locations
+
+MAHAVEDH PROJECT (Extended):
+- Automated weather stations at gram panchayat level
+- Weather Information Network Data System (WINDS)
+- Localized weather information
+- Weather-based agricultural advisories
+
+SAATHI PORTAL:
+- AI-based monitoring system
+- Curbs black marketing of seeds and fertilizers
+- Quality control mechanism
+
+ADDITIONAL FEATURES:
+- Cotton plucking machine R&D support
+- Natural farming promotion
+- 68,000+ hectares fruit plantation expansion (2024-25)
+- 5 Agri Export Clusters development
+- Digital farmer identity database (land, crop history, subsidy records)
+- Foreign agri-study tours (₹2 crore allocated)
+
+EXPECTED OUTCOMES:
+- Positioning Maharashtra as national leader in AI-driven agriculture
+- Climate-resilient farming practices
+- Enhanced productivity and farmer income
+- Reduced water consumption
+- Better market access
+- International competitiveness in exports
+- Attraction of global agritech investments
+
+APPLICATION/ACCESS:
+- MahaVISTAAR-AI app (mobile application)
+- MahaDBT Portal for scheme applications
+- Registration at gram panchayat level
+
+
+SCHEME 44: MAHAVEDH - WEATHER INFORMATION NETWORK DATA SYSTEM (WINDS)
+--------------------------------------------------------------------
+State: Maharashtra
+Ministry/Department: Agriculture Department + IMD collaboration
+Type: Weather Advisory & Climate Information
+Status: Active (Extended in 2025)
+
+OBJECTIVE:
+Provide accurate, localized weather information to farmers at gram panchayat level
+
+INFRASTRUCTURE:
+- Automated Weather Stations (AWS) at each gram panchayat
+- Real-time data collection
+- Integration with IMD systems
+- Connected to central government's WINDS initiative
+
+SERVICES PROVIDED:
+- Hyperlocal weather forecasts
+- Rainfall prediction
+- Temperature monitoring
+- Humidity levels
+- Wind speed and direction
+- Weather-based crop advisories
+- Extreme weather alerts
+
+BENEFICIARIES:
+All farmers in Maharashtra (152 lakh hectares agricultural land)
+
+KEY FEATURES:
+- Village-level precision
+- Real-time data updates
+- Integration with MahaVISTAAR-AI platform
+- SMS and app-based alerts
+- Reduces weather-related crop losses
+
+IMPACT:
+- Better planning of farm operations
+- Timely sowing decisions
+- Pest and disease management
+- Irrigation scheduling
+- Harvest timing optimization
+
+
+SCHEME 45: APEDA EXPORT PROMOTION SCHEME
+---------------------------------------
+Ministry/Department: Agricultural and Processed Food Products Export Development Authority (APEDA), Ministry of Commerce
+Scheme Type: Export Support
+Status: Active
+
+OBJECTIVE:
+Increase exports of agricultural and processed food products and establish permanent presence in global markets
+
+FINANCIAL BENEFIT:
+- Financial assistance for export activities
+- Logistical support
+- Packaging and branding support
+- Participation in international trade fairs
+- Market research assistance
+- Quality certification support
+
+ELIGIBLE PRODUCTS:
+- Fresh fruits and vegetables
+- Processed food products
+- Organic products
+- Basmati rice
+- Wheat and other cereals
+- Meat and meat products
+- Dairy products
+- Poultry products
+- Floriculture
+- Honey
+- Cashew
+- Spices
+
+SERVICES PROVIDED:
+1. Export assistance and facilitation
+2. Quality certification
+3. Infrastructure development for export
+4. Capacity building programs
+5. Market intelligence
+6. International buyer-seller meets
+7. Export documentation support
+
+BENEFICIARIES:
+Registered agricultural exporters, FPOs, farmer cooperatives, agribusinesses
+
+KEY FEATURES:
+- Focus on global market presence
+- Quality standards compliance
+- Brand development for Indian agriculture
+- Connects farmers to international markets
+- Supports value addition
+
+APPLICATION: Through APEDA registration and scheme portals
+WEBSITE: apeda.gov.in
+
+
+SCHEME 46: RASHTRIYA KRISHI VIKAS YOJANA - RAFTAAR
+-------------------------------------------------
+Full Name: RKVY - Remunerative Approaches for Agriculture and Allied sector Rejuvenation
+Launch Year: 2007 (Rebranded as RAFTAAR)
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: State Flexibility & Innovation
+Status: Active
+
+OBJECTIVE:
+Incentivize states to increase public investment in agriculture through flexible, state-specific planning
+
+FINANCIAL PATTERN:
+- 100% grant-in-aid to states
+- Performance-based additional allocation
+- Flexibility for states to use funds for priority areas
+
+SUB-COMPONENTS:
+
+1. BRINGING GREEN REVOLUTION TO EASTERN INDIA (BGREI):
+   States Covered: Assam, Bihar, Jharkhand, Odisha, West Bengal, Eastern UP, Chhattisgarh
+   Focus: Rice-based cropping systems
+   Interventions: Improved seeds, farm mechanization, soil health
+
+2. INNOVATION AND AGRI-ENTREPRENEURSHIP:
+   - Startup support in agriculture
+   - FPO strengthening
+   - Agribusiness incubation
+   - Innovation fund
+
+3. KRISHONNATI YOJANA:
+   - Integrated approach
+   - 11 schemes/missions under one umbrella
+   - End-to-end support from production to marketing
+
+ELIGIBILITY:
+State governments prepare District Agriculture Plans and State Agriculture Plans
+
+KEY FEATURES:
+- State autonomy in planning and implementation
+- Focus on high-value agriculture
+- Value chain development
+- Infrastructure creation
+- Technology adoption
+- Convergence with other schemes
+
+SPECIAL FOCUS AREAS:
+- Eastern region development
+- Rainfed area development
+- Horticulture promotion
+- Seed production
+- Agricultural mechanization
+
+
+SCHEME 47: NATIONAL HORTICULTURE BOARD (NHB) SCHEMES
+---------------------------------------------------
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Type: Horticulture Infrastructure & Development
+Status: Active
+
+VARIOUS SCHEMES UNDER NHB:
+
+1. CAPITAL INVESTMENT SUBSIDY SCHEME:
+   - Subsidy for setting up cold storage, CA/MA storage
+   - Reefer vans
+   - Ripening chambers
+   - Primary processing units
+   - 35% subsidy for general category
+   - 50% for SC/ST, Women, Cooperatives
+
+2. TECHNOLOGY UPGRADATION SCHEME:
+   - Modern pack houses
+   - Sorting and grading units
+   - Pre-cooling facilities
+
+3. MARKET DEVELOPMENT:
+   - Retail outlets
+   - Mobile vending carts
+   - Wholesale market infrastructure
+
+FINANCIAL BENEFIT:
+- Credit-linked back-ended subsidy
+- Project-based assistance
+- Technical guidance
+
+ELIGIBILITY:
+Entrepreneurs, FPOs, cooperatives, companies, individuals
+
+APPLICATION: Through NHB regional offices and online portal
+
+
+SCHEME 48: CENTRAL SECTOR SCHEME ON STRENGTHENING/PROMOTING OF KRISHI VIGYAN KENDRAS (KVKs)
+-------------------------------------------------------------------------------------------
+Ministry/Department: Ministry of Agriculture & Farmers Welfare (ICAR)
+Type: Extension & Training Infrastructure
+Status: Active
+KVKs: 725+ (at least one per district)
+
+OBJECTIVE:
+Strengthen KVKs as frontline extension centers for technology dissemination
+
+SUPPORT PROVIDED:
+1. Infrastructure development
+2. Human resource development
+3. Operational expenses
+4. Equipment and machinery
+5. Training facilities
+
+ACTIVITIES:
+- On-farm testing of technologies
+- Frontline demonstrations
+- Training programs (farmers, rural youth, extension workers)
+- Diagnostic services (soil, water, seeds, plant protection)
+- Production and distribution of quality seeds
+- Animal health camps
+
+RECENT INITIATIVES:
+- Digital KVK platform
+- Mobile apps for advisory
+- Virtual training programs
+- Mera Gaon Mera Gaurav program
+- Farmers FIRST program
+
+BENEFICIARIES: All farmers in respective districts
+
+KEY FEATURES:
+- Location-specific technology
+- Farmer-scientist interface
+- Regular skill development
+- Kisan Mela organization
+
+
+================================================================================
+UPDATED QUICK REFERENCE - ADDITIONAL SCHEME CATEGORIES
+================================================================================
+
+AI & ADVANCED TECHNOLOGY SCHEMES:
+--------------------------------
+1. MahaAgri-AI Policy (Maharashtra) - ₹500 crore, India's first AI agriculture policy
+   - VISTAAR-AI chatbot platform
+   - A-DeX (Agro Data Exchange)
+   - Blockchain traceability
+   - Geospatial intelligence
+   - AI sandbox for startups
+2. Digital Agriculture Mission (Central) - ₹2,817 crore
+3. Mahavedh Weather System (Maharashtra) - Automated weather stations
+4. SAATHI Portal (Maharashtra) - AI-based monitoring
+
+WOMEN EMPOWERMENT WITH AGRICULTURE IMPACT:
+-----------------------------------------
+1. Namo Drone Didi - 80% subsidy on drones for Women SHGs
+2. Ladli Behna Yojana (MP) - ₹1,250/month enabling agri-investments
+
+EXPORT PROMOTION:
+----------------
+1. APEDA Export Promotion Scheme - Financial & logistical support
+2. NHB Capital Investment Subsidy - Infrastructure for export quality
+3. Maharashtra Agri Export Clusters (5 clusters)
+4. Blockchain Traceability (Maharashtra) - For grapes, bananas, pomegranates
+
+INPUT SUBSIDIES:
+---------------
+1. Urea Subsidy Scheme - Government pays difference from market price
+2. Various state fertilizer subsidies
+
+STATE INNOVATION SCHEMES:
+------------------------
+1. Maharashtra AI Agriculture Policy - ₹500 crore
+2. RKVY-RAFTAAR - State flexibility in agriculture planning
+3. BGREI - Green Revolution in Eastern India
+
+WEATHER & CLIMATE SERVICES:
+--------------------------
+1. Mahavedh - WINDS (Weather Information Network Data System)
+2. Automated Weather Stations at GP level
+3. CropSAP - Real-time weather-based advisories
+
+
+================================================================================
+TOTAL SCHEMES IN THIS DATASET: 48+ CENTRAL SCHEMES + 25+ STATE SCHEMES = 73+ SCHEMES
+================================================================================
+
+This comprehensive dataset now includes:
+✓ All major central government schemes
+✓ State schemes from 15+ states
+✓ Latest schemes approved in 2024-2025
+✓ India's first AI agriculture policy (Maharashtra)
+✓ Advanced technology integration schemes
+✓ Women empowerment schemes with agriculture impact
+✓ Export promotion initiatives
+✓ Weather and climate advisory systems
+✓ Complete details with eligibility, benefits, and application process
+
+================================================================================
+DISCLAIMER & UPDATES
+================================================================================
+
+1. This dataset is compiled as of November 2025
+2. Scheme details, benefits, and eligibility criteria are subject to change
+3. Always verify current guidelines from official government portals
+4. New schemes may be announced; check ministry websites regularly
+5. State schemes vary; contact local agriculture departments for specifics
+6. For real-time updates, follow official government notifications
+
+IMPORTANT RESOURCES:
+- Ministry of Agriculture: agricoop.nic.in
+- PM-KISAN: pmkisan.gov.in
+- PMFBY: pmfby.gov.in
+- DBT Agriculture: dbtdirect.gov.in
+- Kisan Call Center: 1800-180-1551
+- State Agriculture Portals: Check respective state websites
+
+================================================================================
+END OF COMPREHENSIVE FARMER SCHEMES DATASET
+================================================================================ Zinc (Zn)
+6. Boron (B)
+7. Iron (Fe)
+8. Manganese (Mn)
+9. Copper (Cu)
+10. pH
+11. Electrical Conductivity (EC)
+12. Organic Carbon (OC)
+
+ELIGIBILITY: All farmers
+
+KEY FEATURES:
+- Cards issued every 3 years to track soil health changes
+- Reduces excessive fertilizer use
+- Improves soil fertility sustainably
+- Linked with nutrient management recommendations
+- Digital database of soil health
+
+APPLICATION MODE: Through Soil Testing Laboratories in districts
+TARGET: 14 crore farm holdings
+
+
+SCHEME 6: PRADHAN MANTRI KRISHI SINCHAYEE YOJANA (PM-KSY)
+--------------------------------------------------------
+Launch Year: July 2015
+Ministry/Department: Ministry of Jal Shakti and Ministry of Agriculture
+Scheme Type: Irrigation
+Status: Active
+
+OBJECTIVE:
+Expand cultivable area under irrigation, improve water use efficiency, and promote precision irrigation
+
+MOTTO: "Har Khet Ko Paani" (Water to Every Field)
+
+COMPONENTS:
+1. Accelerated Irrigation Benefit Programme (AIBP)
+2. Har Khet Ko Paani (surface and groundwater)
+3. Watershed Development (PMKSY-WDC)
+4. Per Drop More Crop (PMKSY-PDMC) - Micro Irrigation
+
+FINANCIAL BENEFIT:
+- Financial assistance for irrigation infrastructure
+- Subsidy on drip and sprinkler irrigation systems
+- 55% subsidy for general category farmers
+- 45% subsidy from state/central government
+
+ELIGIBILITY:
+All farmers, with priority to small and marginal farmers
+
+KEY FEATURES:
+- Focus on water conservation and efficient water use
+- Promotes micro-irrigation (drip, sprinkler)
+- Integrated approach to water management
+- Convergence with MGNREGA for water harvesting structures
+- Use of treated municipal wastewater for irrigation
+
+APPLICATION MODE: Through State Agriculture/Irrigation Departments
+
+
+SCHEME 7: NATIONAL AGRICULTURE MARKET (e-NAM)
+--------------------------------------------
+Launch Year: April 14, 2016
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Market Linkage & Marketing
+Status: Active
+
+OBJECTIVE:
+Create a unified national agricultural market for transparent and competitive online trading
+
+FINANCIAL BENEFIT:
+- Better price discovery for farmers
+- Reduced transaction costs
+- Elimination of middlemen exploitation
+- Access to multiple buyers
+
+COVERAGE: 1,361 mandis integrated across 23 states and 4 UTs (as of 2024)
+
+ELIGIBILITY:
+All farmers, traders, commission agents
+
+KEY FEATURES:
+- Online trading platform
+- Quality assaying of commodities
+- Single trading license valid across all e-NAM markets
+- Single point levy of market fee
+- Commodity-wise arrival and price data dissemination
+- SMS/mobile app-based information
+- Payment through online banking
+
+COMMODITIES COVERED:
+Fruits, vegetables, food grains, oilseeds, spices, pulses, and other agricultural produce
+
+APPLICATION MODE: Online registration on e-NAM portal
+WEBSITE: enam.gov.in
+HELPLINE: 1800-270-0224
+
+
+SCHEME 8: SUB-MISSION ON AGRICULTURAL MECHANIZATION (SMAM)
+---------------------------------------------------------
+Launch Year: April 2014
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Farm Mechanization
+Status: Active
+
+OBJECTIVE:
+Accelerate and make agricultural mechanization inclusive and accessible to all farmers, especially small and marginal farmers
+
+FINANCIAL BENEFIT:
+- Up to 40-50% subsidy on farm machinery and equipment
+- Higher subsidy for SC/ST farmers and women farmers
+- Subsidy on establishment of Custom Hiring Centers (CHCs)
+- Subsidy on Farm Machinery Banks
+
+ELIGIBLE EQUIPMENT:
+Tractors, power tillers, combined harvesters, seed drills, rotavators, boom sprayers, laser land levelers, paddy transplanters, zero-till drills, happy seeders, super seeders, etc.
+
+ELIGIBILITY:
+- Individual farmers (priority to small & marginal farmers, SC/ST, women)
+- Farmer groups, Self Help Groups, Farmers Producer Organizations
+- Panchayats and Cooperative Societies
+
+KEY FEATURES:
+- Promotes custom hiring to make expensive machines affordable
+- Training on operation and maintenance of machinery
+- Focuses on hill and tribal areas with 100% central assistance
+- Addresses stubble burning through mechanized solutions (Punjab, Haryana, UP, Delhi-NCR)
+- Demonstrations and capacity building
+
+APPLICATION MODE: Through State Agriculture Departments
+BENEFICIARY SELECTION: First-come-first-served basis for individual farmers
+
+
+SCHEME 9: AGRICULTURE INFRASTRUCTURE FUND (AIF)
+----------------------------------------------
+Launch Year: July 2020
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Infrastructure Development & Financing
+Status: Active
+Fund Size: ₹1 lakh crore
+Duration: 2020-2029 (10 years)
+
+OBJECTIVE:
+Provide medium to long-term debt financing for investment in viable post-harvest management infrastructure and community farming assets
+
+FINANCIAL BENEFIT:
+- Loans with 3% interest subvention
+- Credit guarantee coverage up to ₹2 crore
+- Repayment period: Up to 6-7 years with moratorium
+- Management Information System (MIS) charges: 1% of loan amount
+
+ELIGIBLE PROJECTS:
+- Warehouse, godowns, cold storage
+- Ripening chambers, sorting & grading units
+- Processing facilities
+- Supply chain infrastructure
+- E-marketing platforms
+- Primary processing centers
+- Mobile processing units
+- Logistics infrastructure
+
+BENEFICIARIES:
+- Primary Agricultural Credit Societies (PACS)
+- Marketing Cooperative Societies
+- Farmer Producer Organizations (FPOs)
+- Self Help Groups (SHGs)
+- Joint Liability Groups (JLGs)
+- Multipurpose Cooperative Societies
+- Agri-entrepreneurs
+- Startups
+- State Agencies/APMCs
+
+APPLICATION MODE: Online through AIF portal
+WEBSITE: agriinfra.dac.gov.in
+FINANCING BANKS: All scheduled commercial banks, RRBs, cooperative banks, NBFCs
+
+
+SCHEME 10: FORMATION & PROMOTION OF 10,000 FPOs
+----------------------------------------------
+Launch Year: February 2020
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Institutional Development
+Status: Active
+Outlay: ₹6,865 crore
+Duration: 2020-2028
+
+OBJECTIVE:
+Form and promote 10,000 new Farmer Producer Organizations (FPOs) to empower small and marginal farmers through collectivization
+
+FINANCIAL BENEFIT:
+- Equity grant up to ₹15 lakh per FPO
+- Credit guarantee facility up to ₹2 crore per FPO
+- Management support for 5 years
+- Handholding support for business development
+
+SUPPORT PROVIDED:
+1. Professional support from Cluster-Based Business Organizations (CBBOs)
+2. Financial support for equity and credit
+3. Training and capacity building
+4. Market linkages and value chain development
+5. Infrastructure development support
+
+FPO SIZE:
+- Plains: Minimum 300 farmers per FPO
+- Hill/tribal areas: Minimum 100 farmers per FPO
+
+ELIGIBILITY:
+Groups of small and marginal farmers forming new FPOs
+
+KEY FEATURES:
+- 5-year handholding support through CBBOs
+- Linked with NABARD and SFAC for implementation
+- Focus on production, post-harvest and marketing activities
+- Digital enablement of FPOs
+- Convergence with other government schemes
+
+IMPLEMENTING AGENCIES: NABARD, SFAC, NCDC
+
+
+SCHEME 11: DIGITAL AGRICULTURE MISSION (DAM)
+-------------------------------------------
+Launch Year: September 2, 2024
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Technology & Digital Infrastructure
+Status: Active (New Scheme)
+Outlay: ₹2,817 crore
+
+OBJECTIVE:
+Use Digital Public Infrastructure and technology to improve farmers' lives and agricultural productivity
+
+TWO FOUNDATIONAL PILLARS:
+
+1. AGRI STACK:
+   - Farmers Registry: Database of all farmers
+   - Village Land Maps Registry: Digital land records
+   - Crop Sown Registry: Real-time crop cultivation data
+
+2. KRISHI DECISION SUPPORT SYSTEM:
+   - Geospatial data integration
+   - Drought and flood monitoring
+   - Weather and satellite data analytics
+   - Groundwater and water availability information
+   - Crop yield modelling
+   - Insurance risk assessment
+   - Digital crop estimation
+
+KEY FEATURES:
+- Digital Public Infrastructure (DPI) approach
+- Soil profile mapping using technology
+- Digital General Crop Estimation Survey
+- AI/ML-based decision support tools
+- Integration with various data sources
+- Real-time information delivery to farmers
+
+EXPECTED OUTCOMES:
+- Better targeting of government schemes
+- Improved credit flow to farmers
+- Enhanced insurance penetration
+- Data-driven policy making
+- Precision agriculture adoption
+
+APPLICATION MODE: Digital platform (under development)
+
+
+SCHEME 12: CROP SCIENCE FOR FOOD AND NUTRITIONAL SECURITY
+---------------------------------------------------------
+Launch Year: September 2, 2024
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Research & Development
+Status: Active (New Scheme)
+Outlay: ₹3,979 crore
+
+OBJECTIVE:
+Prepare farmers for climate resilience and ensure food and nutritional security by 2047
+
+KEY COMPONENTS:
+
+1. CROP IMPROVEMENT:
+   - Development of climate-resilient crop varieties
+   - High-yielding varieties with nutritional enhancement
+   - Drought, flood, and salinity-tolerant crops
+   - Pest and disease-resistant varieties
+
+2. RESEARCH AREAS:
+   - Seed science and technology
+   - Plant genetics and breeding
+   - Biotechnology applications
+   - Crop physiology
+   - Research on insects, microbes, and pollinators
+   - Soil microbiology
+
+3. FOOD SECURITY:
+   - Enhancement of food grain production
+   - Nutritional quality improvement
+   - Post-harvest technology
+   - Storage and processing research
+
+ELIGIBILITY: Agriculture research institutions and universities
+
+KEY FEATURES:
+- Focus on sustainable agriculture
+- Integration of traditional and modern knowledge
+- Technology transfer to farmers
+- Capacity building of researchers
+- International collaboration
+
+BENEFICIARIES: Entire agriculture sector and farming community
+
+
+SCHEME 13: STRENGTHENING AGRICULTURAL EDUCATION, MANAGEMENT & SOCIAL SCIENCES
+-----------------------------------------------------------------------------
+Launch Year: September 2, 2024
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Education & Capacity Building
+Status: Active (New Scheme)
+Outlay: ₹2,291 crore
+
+OBJECTIVE:
+Prepare agriculture students and researchers for current and future challenges in agriculture
+
+KEY COMPONENTS:
+
+1. EDUCATION ENHANCEMENT:
+   - Curriculum modernization
+   - Skill development programs
+   - Faculty development
+   - Infrastructure upgradation of agricultural universities
+   - Student exchange programs
+
+2. RESEARCH SUPPORT:
+   - Research grants for students and faculty
+   - Advanced laboratories and equipment
+   - Collaborative research projects
+   - Innovation and startup support
+
+3. EXTENSION EDUCATION:
+   - Farmer training programs
+   - Technology demonstration
+   - Knowledge dissemination
+   - Agricultural journalism and communication
+
+BENEFICIARIES:
+- Agricultural universities and colleges
+- Agriculture students (UG, PG, PhD)
+- Faculty members and researchers
+- Extension workers
+
+KEY FEATURES:
+- Focus on emerging technologies (AI, IoT, precision agriculture)
+- Entrepreneurship development
+- Industry-academia linkages
+- Social science research in agriculture
+
+EXPECTED OUTCOMES:
+- Better trained agricultural workforce
+- Increased research output
+- Improved farmer advisory services
+- Innovation in agriculture sector
+
+
+SCHEME 14: SUSTAINABLE LIVESTOCK HEALTH AND PRODUCTION
+-----------------------------------------------------
+Launch Year: September 2, 2024
+Ministry/Department: Ministry of Fisheries, Animal Husbandry & Dairying
+Scheme Type: Livestock Development
+Status: Active (New Scheme)
+Outlay: ₹1,702 crore
+
+OBJECTIVE:
+Increase farmers' income from livestock and dairy through improved animal health management
+
+KEY COMPONENTS:
+
+1. ANIMAL HEALTH MANAGEMENT:
+   - Disease surveillance and control
+   - Vaccination programs
+   - Mobile veterinary units
+   - Telemedicine for veterinary services
+   - Quality veterinary drugs and biologicals
+
+2. VETERINARY EDUCATION:
+   - Upgradation of veterinary colleges
+   - Skill development of para-veterinarians
+   - Training in modern diagnostic techniques
+   - Research in animal sciences
+
+3. PRODUCTIVITY ENHANCEMENT:
+   - Breed improvement programs
+   - Artificial insemination services
+   - Fodder development
+   - Nutrition management
+   - Modern farming practices
+
+ELIGIBILITY:
+All livestock farmers (cattle, buffalo, sheep, goat, pig, poultry)
+
+KEY FEATURES:
+- Focus on One Health approach
+- Prevention over cure
+- Technology integration in veterinary services
+- Strengthening veterinary infrastructure
+- Support to veterinary startups
+
+EXPECTED OUTCOMES:
+- Reduced livestock mortality
+- Increased milk and meat production
+- Better animal welfare
+- Higher farmer incomes
+
+
+SCHEME 15: SUSTAINABLE DEVELOPMENT OF HORTICULTURE
+-------------------------------------------------
+Launch Year: September 2, 2024
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Horticulture Development
+Status: Active (New Scheme)
+Outlay: ₹860 crore
+
+OBJECTIVE:
+Increase farmers' income through sustainable horticulture development
+
+CROP COVERAGE:
+- Tropical horticulture crops (banana, papaya, pineapple, etc.)
+- Sub-tropical horticulture crops (citrus, litchi, mango, etc.)
+- Temperate horticulture crops (apple, pear, plum, cherry, etc.)
+- Flowers and ornamentals
+- Spices and plantation crops
+- Medicinal and aromatic plants
+
+KEY COMPONENTS:
+
+1. AREA EXPANSION:
+   - Quality planting material
+   - Subsidy for plantation
+   - High-density plantation promotion
+
+2. PRODUCTIVITY IMPROVEMENT:
+   - Rejuvenation of old orchards
+   - Precision farming techniques
+   - Protected cultivation
+   - Integrated Pest Management (IPM)
+
+3. POST-HARVEST MANAGEMENT:
+   - Pack houses
+   - Ripening chambers
+   - Cold storage facilities
+   - Primary processing units
+
+4. MARKET DEVELOPMENT:
+   - Market infrastructure
+   - Organic certification support
+   - Export promotion
+
+ELIGIBILITY:
+All horticulture farmers, FPOs, entrepreneurs
+
+KEY FEATURES:
+- Cluster-based approach
+- Technology-driven interventions
+- Value addition and processing
+- Convergence with other schemes
+
+APPLICATION MODE: Through State Horticulture Departments/Missions
+
+
+SCHEME 16: NATIONAL BEEKEEPING AND HONEY MISSION (NBHM)
+------------------------------------------------------
+Launch Year: 2020
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Beekeeping & Pollination
+Status: Active
+Motto: "Sweet Revolution"
+
+OBJECTIVE:
+Promote scientific beekeeping for increasing crop productivity through pollination and honey production
+
+THREE MINI MISSIONS:
+
+1. MINI MISSION 1: Production and Productivity
+   - Bee colony multiplication
+   - Training of beekeepers
+   - Distribution of bee colonies and equipment
+   - Pollination services for crops
+
+2. MINI MISSION 2: Post-Harvest Management
+   - Honey processing units
+   - Bee product processing (wax, pollen, royal jelly, propolis)
+   - Quality testing infrastructure
+   - Packaging and branding support
+
+3. MINI MISSION 3: Research and Technology
+   - Research on bee diseases
+   - Development of new bee varieties
+   - Region-specific technologies
+   - Queen bee rearing centers
+
+FINANCIAL BENEFIT:
+- Subsidy on bee boxes and equipment
+- Support for establishing processing units
+- Training and capacity building
+- Marketing support
+
+BENEFICIARIES:
+Farmers, beekeepers, entrepreneurs, FPOs, SHGs
+
+KEY FEATURES:
+- Focus on increasing pollination services
+- Creation of Bee Breeders cooperatives
+- Brand development for Indian honey
+- Integration with horticulture schemes
+- Organic honey promotion
+
+EXPECTED OUTCOMES:
+- Increased honey production
+- Additional income for farmers (₹30,000-40,000 per annum)
+- Enhanced crop yields through pollination
+- Employment generation
+
+
+SCHEME 17: NAMO DRONE DIDI
+-------------------------
+Launch Year: August 15, 2023
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Technology & Women Empowerment
+Status: Active
+Duration: 2024-25 to 2025-26
+Outlay: ₹1,261 crore
+
+OBJECTIVE:
+Empower women through drone technology for agricultural operations and create sustainable livelihood
+
+FINANCIAL BENEFIT:
+- 80% subsidy on cost of drones (maximum ₹8 lakh per drone)
+- Women Self Help Groups pay only 20% of drone cost
+- Expected income: At least ₹1 lakh per year per SHG
+
+COVERAGE:
+15,000 selected Women Self Help Groups across India
+
+SERVICES PROVIDED BY SHGs:
+- Rental of drones to farmers for:
+  * Fertilizer application
+  * Pesticide spraying
+  * Nutrient spraying
+  * Seed sowing (in some cases)
+
+ELIGIBILITY:
+Women Self Help Groups (SHGs) registered with government
+
+KEY FEATURES:
+- Pilot training provided to women
+- Drone maintenance training
+- Business and livelihood support
+- Insurance coverage for drones
+- Technical support during operations
+- Digital booking platform for farmers
+
+RENTAL CHARGES (Approximate):
+₹300-600 per acre depending on service
+
+BENEFITS FOR FARMERS:
+- Reduced cost of spraying operations
+- Uniform application of inputs
+- Time-saving
+- Reduced exposure to chemicals
+- Precision agriculture
+
+EXPECTED OUTCOMES:
+- Women empowerment through technology
+- Sustainable income generation
+- Reduced drudgery in agriculture
+- Promotion of precision agriculture
+
+
+SCHEME 18: NATIONAL MISSION ON EDIBLE OIL - OIL PALM (NMEO-OP)
+--------------------------------------------------------------
+Launch Year: 2021
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Oilseed Production
+Status: Active
+Duration: 2021-22 to 2029-30
+
+OBJECTIVE:
+Increase domestic edible oil production and reduce import dependency through oil palm cultivation
+
+AREA TARGETS:
+- Additional 6.5 lakh hectares: 2021-22 to 2025-26
+- Total 10 lakh hectares by 2025-26
+- Further expansion to 16.7 lakh hectares by 2029-30
+
+FINANCIAL BENEFIT:
+- ₹31,500 per hectare for planting material
+  * ₹15,000 Direct Benefit Transfer to farmer
+  * Balance through planting material supply
+- Viability Gap Funding (VGF) to make cultivation attractive
+- Assured price mechanism
+- Input subsidies
+
+FOCUS AREAS:
+- North East States
+- Andaman & Nicobar Islands
+- Traditional areas (Andhra Pradesh, Telangana, Karnataka, Tamil Nadu, Gujarat, Odisha, Mizoram)
+
+ELIGIBILITY:
+Farmers in suitable agro-climatic zones for oil palm
+
+KEY FEATURES:
+- Assured buyback at remunerative prices
+- Subsidy on drip irrigation (100% for NE states and A&N)
+- Technical guidance and hand-holding
+- Support for oil extraction infrastructure
+- Convergence with other schemes for inputs
+- Focus on rain-fed and waste land utilization
+
+EXPECTED OUTCOMES:
+- Reduced edible oil imports
+- Atmanirbhar Bharat in edible oils
+- Income enhancement for farmers
+- Employment generation
+- Environmental benefits (carbon sequestration)
+
+APPLICATION MODE: Through State Agriculture Departments
+
+
+SCHEME 19: MODIFIED INTEREST SUBVENTION SCHEME (MISS)
+----------------------------------------------------
+Launch Year: 2006 (Revised periodically)
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Credit Support
+Status: Active
+
+OBJECTIVE:
+Provide short-term agricultural credit to farmers at reduced interest rates
+
+FINANCIAL BENEFIT:
+- Short-term crop loans available at 7% interest per annum
+- Additional 3% interest subvention for prompt repayment
+- Effective interest rate: 4% per annum for loans up to ₹3 lakh
+- Interest subvention for pre and post-harvest credit
+
+COVERAGE:
+- Crop husbandry
+- Animal husbandry
+- Dairying
+- Fisheries (inland and marine)
+- Allied agricultural activities
+
+ELIGIBILITY:
+All farmers availing short-term crop loans from banks
+
+LOAN LIMIT: Up to ₹3 lakh
+
+REPAYMENT PERIOD:
+- Usually one year from disbursement
+- Extended to 5 years in case of natural calamities with restructuring
+
+KEY FEATURES:
+- Encourages timely repayment through additional incentive
+- Reduces farmer debt burden
+- Promotes formal credit access
+- Discourages moneylenders
+- Available across all lending institutions
+
+LENDING INSTITUTIONS:
+- Public Sector Banks
+- Private Sector Banks
+- Regional Rural Banks (RRBs)
+- State Cooperative Banks
+- District Central Cooperative Banks (DCCBs)
+- Primary Agricultural Credit Societies (PACS)
+
+SPECIAL PROVISION:
+Farmers affected by natural calamities/severe natural calamities are eligible for interest subvention even during restructured loan period
+
+
+SCHEME 20: RAINFED AREA DEVELOPMENT PROGRAMME (RADP)
+---------------------------------------------------
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Rainfed Agriculture
+Status: Active (Part of NMSA)
+
+OBJECTIVE:
+Sustainable development of rainfed agriculture through integrated farming system approach
+
+KEY COMPONENTS:
+
+1. WATER CONSERVATION:
+   - In-situ moisture conservation
+   - Farm ponds
+   - Check dams
+   - Percolation tanks
+   - Water harvesting structures
+
+2. SOIL HEALTH MANAGEMENT:
+   - Green manuring
+   - Organic farming
+   - Soil fertility improvement
+   - Erosion control measures
+
+3. CROP DIVERSIFICATION:
+   - High-value crops
+   - Horticulture integration
+   - Pulses and oilseeds
+   - Climate-resilient varieties
+
+4. LIVESTOCK INTEGRATION:
+   - Fodder development
+   - Small ruminants (goat, sheep)
+   - Backyard poultry
+   - Dairy development
+
+ELIGIBILITY:
+Farmers in rainfed areas (covers ~60% of cultivated area in India)
+
+FINANCIAL BENEFIT:
+Support for various components as per state schemes
+
+KEY FEATURES:
+- Cluster-based approach (500-1000 hectare clusters)
+- Integrated farming system model
+- Focus on water harvesting and conservation
+- Income diversification
+- Convergence with MGNREGA
+
+EXPECTED OUTCOMES:
+- Increased crop productivity in rainfed areas
+- Reduced risk from monsoon failure
+- Enhanced soil health
+- Diversified income sources
+- Climate resilience
+
+
+SCHEME 21: NATIONAL MISSION ON SUSTAINABLE AGRICULTURE (NMSA)
+------------------------------------------------------------
+Launch Year: 2014-15
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Sustainable Agriculture
+Status: Active
+
+OBJECTIVE:
+Make agriculture more productive, sustainable, remunerative and climate resilient
+
+FOUR MAJOR COMPONENTS:
+
+1. SOIL HEALTH MANAGEMENT (SHM):
+   - Soil Health Card Scheme
+   - Promotion of organic farming
+   - Integrated Nutrient Management
+
+2. RAINFED AREA DEVELOPMENT (RAD):
+   - Water harvesting and conservation
+   - Integrated farming systems
+   - Risk mitigation measures
+
+3. CLIMATE CHANGE & SUSTAINABLE AGRICULTURE (CCSA):
+   - Climate-resilient varieties
+   - Adaptation strategies
+   - Weather-based agro-advisories
+
+4. ON FARM WATER MANAGEMENT (OFWM):
+   - Micro-irrigation (drip, sprinkler)
+   - Water use efficiency
+   - Water budgeting
+
+ELIGIBILITY:
+All farmers, with focus on small and marginal farmers
+
+KEY FEATURES:
+- Holistic approach to sustainable agriculture
+- Integration of various sub-schemes
+- State-level implementation through State Agriculture Departments
+- Focus on climate adaptation and mitigation
+- Promotion of sustainable practices
+
+EXPECTED OUTCOMES:
+- Enhanced agricultural productivity
+- Improved soil health and water use efficiency
+- Reduced environmental footprint
+- Climate-resilient agriculture
+- Sustainable farm income
+
+
+SCHEME 22: NATIONAL FOOD SECURITY MISSION (NFSM)
+-----------------------------------------------
+Launch Year: October 2007
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Production Enhancement
+Status: Active (Continued through multiple phases)
+
+OBJECTIVE:
+Increase production of rice, wheat, pulses, coarse cereals, and commercial crops through area expansion and productivity enhancement
+
+TARGET CROPS:
+
+1. NFSM-RICE:
+   - Target: Increase rice production
+   - Focus states: Eastern India (Bihar, Jharkhand, Odisha, West Bengal, etc.)
+
+2. NFSM-WHEAT:
+   - Target: Increase wheat production
+   - Focus states: Northern and Central India
+
+3. NFSM-PULSES:
+   - Target: Self-sufficiency in pulses
+   - Crops: Arhar, moong, urad, lentil, chickpea
+   - Focus: Nationwide coverage
+
+4. NFSM-COARSE CEREALS:
+   - Crops: Maize, barley, jowar, bajra, ragi
+   - Nutritional security focus
+
+5. NFSM-COMMERCIAL CROPS:
+   - Cotton, jute, sugarcane
+   - Focus on increasing productivity
+
+KEY INTERVENTIONS:
+- Distribution of improved/hybrid seeds
+- Integrated Nutrient Management
+- Resource conservation technologies
+- Farm mechanization
+- Integrated Pest Management
+- Capacity building of farmers
+
+ELIGIBILITY:
+All farmers cultivating targeted crops
+
+FINANCIAL SUPPORT:
+- Subsidy on seeds, fertilizers, and equipment
+- Training and demonstrations
+- Assistance for soil testing
+
+APPLICATION MODE: Through State Agriculture Departments
+
+EXPECTED OUTCOMES:
+- Food and nutritional security
+- Increased farm income
+- Sustainable production practices
+
+
+SCHEME 23: NATIONAL HORTICULTURE MISSION (NHM)
+---------------------------------------------
+Launch Year: 2005-06
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Horticulture Development
+Status: Active (Now part of Mission for Integrated Development of Horticulture - MIDH)
+
+OBJECTIVE:
+Holistic growth of horticulture sector covering fruits, vegetables, root & tuber crops, mushrooms, spices, flowers, aromatic plants, cashew, and cocoa
+
+COVERAGE:
+18 states in NE & Himalayan region, Karnataka, Kerala, and 3 UTs
+
+FINANCIAL PATTERN:
+- Credit-linked back-ended subsidy
+- 40% of total outlay for General category states
+- 60% for NE & Himalayan states
+- State share varies by category
+
+KEY COMPONENTS:
+
+1. PRODUCTION:
+   - Quality planting material
+   - Establishment of new gardens/orchards
+   - Rejuvenation of old/senile gardens
+   - Creation of water resources
+   - Protected cultivation
+   - Good Agricultural Practices (GAP)
+
+2. POST-HARVEST MANAGEMENT:
+   - Pack houses
+   - Reefer vans
+   - Cold storage
+   - Ripening chambers
+   - Primary/minimal processing units
+
+3. MARKETING INFRASTRUCTURE:
+   - Rural markets/haats
+   - Retail markets
+   - Apni Mandis
+
+ELIGIBILITY:
+Individual farmers, FPOs, SHGs, NGOs, government agencies
+
+KEY FEATURES:
+- End-to-end approach from production to marketing
+- Technology adoption and modernization
+- Organic farming promotion
+- Certification support (organic, GAP, etc.)
+- Human Resource Development
+
+APPLICATION MODE: Through State Horticulture Missions
+
+
+SCHEME 24: PRADHAN MANTRI MATSYA SAMPADA YOJANA (PMMSY)
+------------------------------------------------------
+Launch Year: May 20, 2020
+Ministry/Department: Ministry of Fisheries, Animal Husbandry & Dairying
+Scheme Type: Fisheries Development
+Status: Active
+Duration: FY 2020-21 to 2024-25 (extended)
+Total Outlay: ₹20,050 crore
+
+OBJECTIVE:
+Bring about Blue Revolution through sustainable and responsible development of fisheries sector
+
+PRODUCTION TARGETS:
+- Fish production: 220 lakh metric tonnes by 2024-25
+- Fisheries exports: ₹1,00,000 crore by 2024-25
+- Double incomes of fishers and fish farmers
+- Generate 55 lakh employment opportunities
+
+TWO COMPONENTS:
+
+1. CENTRAL SECTOR SCHEME (CS):
+   Outlay: ₹1,720 crore
+   - Fisheries management frameworks
+   - Monitoring Control Surveillance (MCS)
+   - Registration of fishing vessels
+   - Traceability and certification
+
+2. CENTRALLY SPONSORED SCHEME (CSS):
+   Outlay: ₹18,330 crore
+   - Enhancement of production and productivity
+   - Infrastructure development
+   - Post-harvest management
+   - Marketing and value chain
+   - Fisheries management and regulatory framework
+
+KEY INTERVENTIONS:
+
+INLAND FISHERIES:
+- Development of aquaculture (freshwater, brackishwater)
+- Cage culture in reservoirs
+- Recirculatory Aquaculture System (RAS)
+- Biofloc technology
+- Seaweed cultivation
+- Ornamental fisheries
+
+MARINE FISHERIES:
+- Deep sea fishing vessels
+- Fishing harbors and landing centers
+- Post-harvest infrastructure
+- Cold chain and value addition
+- Seaweed cultivation
+
+FINANCIAL BENEFIT:
+- Up to 60% subsidy for general category
+- Up to 75% for SC/ST/Women
+- Credit linked subsidies
+- Working capital support
+
+ELIGIBILITY:
+Fishers, fish farmers, FPOs, entrepreneurs, SHGs, cooperatives
+
+APPLICATION MODE: Through State Fisheries Departments
+WEBSITE: pmmsy.dof.gov.in
+
+
+SCHEME 25: KRISHI VIGYAN KENDRA (KVK) STRENGTHENING
+--------------------------------------------------
+Established: 1974 (First KVK)
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Extension Services & Training
+Status: Active
+Number of KVKs: 725+ (at least one in each district)
+
+OBJECTIVE:
+Technology assessment, refinement, and demonstration for its application and capacity development
+
+FUNCTIONS OF KVKs:
+
+1. ON-FARM TESTING (OFT):
+   - Test and verify location-specific technologies
+   - Identify gaps between research and farmers' fields
+
+2. FRONTLINE DEMONSTRATIONS (FLDs):
+   - Demonstrate proven technologies on farmers' fields
+   - Show productivity potential and profitability
+
+3. TRAINING:
+   - Farmers' training
+   - Rural youth training
+   - Extension personnel training
+   - Training on new technologies
+
+4. ADVISORY SERVICES:
+   - Kisan Call Centers
+   - Farm advisories
+   - Soil testing
+   - Veterinary services
+   - Plant health clinics
+
+KEY ACTIVITIES:
+- Crop demonstrations (cereals, pulses, oilseeds, vegetables)
+- Integrated farming system
+- Farm machinery demonstrations
+- Livestock management training
+- Post-harvest technology
+- Value addition training
+- Entrepreneurship development
+- Digital agriculture promotion
+
+SERVICES PROVIDED:
+- Free advisory services
+- Subsidized soil testing
+- Seed production and distribution
+- Animal health camps
+- Input supply facilitation
+
+ELIGIBILITY:
+All farmers, rural youth, extension workers
+
+KEY FEATURES:
+- Decentralized extension system
+- Location-specific technology development
+- Farmer-scientist interface
+- Regular training programs
+- Linkage with agricultural universities
+
+ACCESS: Visit nearest KVK in your district
+CONTACT: District Agriculture Office for KVK details
+
+
+SCHEME 26: RASHTRIYA KRISHI VIKAS YOJANA (RKVY)
+----------------------------------------------
+Launch Year: August 2007
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: State Flexibility & Planning
+Status: Active (Renamed as RKVY-RAFTAAR)
+RAFTAAR: Remunerative Approaches for Agriculture and Allied sector Rejuvenation
+
+OBJECTIVE:
+Incentivize states to increase public investment in agriculture and allied sectors
+
+FINANCIAL PATTERN:
+- 100% grant to states
+- Additional allocation based on performance
+- Flexibility to states for priority-based planning
+
+KEY COMPONENTS:
+
+1. STATE COMPONENT:
+   - Flexible fund use as per State Agriculture Plans
+   - Focus on high-priority areas
+   - Innovation and agri-entrepreneurship
+
+2. CENTRAL COMPONENT:
+   - National priorities and schemes
+   - Special sub-schemes
+   - Innovations and pilot projects
+
+SPECIAL SUB-SCHEMES:
+
+a) RAFTAAR-KRISHONNATI YOJANA (RKY):
+   - Includes 11 schemes/missions
+   - Integrated approach
+
+b) BRINGING GREEN REVOLUTION TO EASTERN INDIA (BGREI):
+   - Focus: Eastern states (Assam, Bihar, Jharkhand, Odisha, West Bengal, Eastern UP, Chhattisgarh)
+   - Crop: Rice-based cropping systems
+
+c) INNOVATION AND AGRI-ENTREPRENEURSHIP DEVELOPMENT:
+   - Support to startups
+   - Farmer Producer Organizations
+   - Agribusiness development
+
+ELIGIBILITY:
+State governments for implementation; ultimate beneficiaries are farmers
+
+KEY FEATURES:
+- State autonomy in planning
+- District-level planning
+- Convergence with other schemes
+- Focus on value chains
+- Support for infrastructure and innovations
+
+EXPECTED OUTCOMES:
+- Increased public investment in agriculture
+- State-specific agricultural development
+- Higher agricultural growth rates
+- Diversification of agriculture
+
+
+SCHEME 27: PARAMPARAGAT KRISHI VIKAS YOJANA (PKVY)
+-------------------------------------------------
+Launch Year: 2015-16
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Organic Farming
+Status: Active (Now part of Bhartiya Prakritik Kheti Paddhati)
+
+OBJECTIVE:
+Promote organic farming through cluster approach and Participatory Guarantee System (PGS) certification
+
+FINANCIAL BENEFIT:
+- ₹50,000 per hectare over 3 years (₹31,000 for organic inputs, ₹8,100 for PGS certification, rest for cluster formation)
+- Additional support for organic manure production
+- Market support for premium pricing
+
+CLUSTER APPROACH:
+- 50 or more farmers form one cluster
+- 20 hectares minimum cluster size (50 acres)
+- Farmers must be willing to contribute their land for organic cultivation for 3 years
+
+KEY COMPONENTS:
+
+1. YEAR 1-3: CONVERSION PERIOD
+   - Adoption of organic farming practices
+   - Traditional resources usage
+   - Biological pest management
+   - Quality seed production
+   - On and off-farm input production
+
+2. ORGANIC INPUT PRODUCTION:
+   - Vermi-compost units
+   - Bio-pesticides and bio-fertilizers
+   - Botanical extracts
+   - Panchagavya, Jeevamrit
+
+3. CERTIFICATION:
+   - Participatory Guarantee System (PGS) certification
+   - No third-party certification cost
+   - Market linkage for certified produce
+
+ELIGIBILITY:
+Farmers willing to adopt organic farming in clusters
+
+KEY FEATURES:
+- Cluster-based implementation
+- Peer inspection and certification
+- Reduced chemical usage
+- Sustainable farming
+- Premium price realization
+- Brand creation for organic produce
+
+EXPECTED OUTCOMES:
+- Increased area under organic farming
+- Better soil health
+- Residue-free food production
+- Higher farmer income through premium pricing
+- Environmental sustainability
+
+APPLICATION MODE: Through State Agriculture Departments
+
+
+SCHEME 28: PRADHAN MANTRI ANNADATA AAY SANRAKSHAN ABHIYAN (PM-AASHA)
+-------------------------------------------------------------------
+Launch Year: September 2018
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Price Support
+Status: Active
+
+OBJECTIVE:
+Ensure remunerative prices to farmers for their produce
+
+THREE COMPONENTS:
+
+1. PRICE SUPPORT SCHEME (PSS):
+   - Physical procurement of pulses, oilseeds, and copra at MSP
+   - Implemented by Central Nodal Agencies (NAFED, FCI, etc.)
+   - States can also procure with central support
+
+2. PRICE DEFICIENCY PAYMENT SCHEME (PDPS):
+   - No physical procurement
+   - Direct payment of difference between MSP and selling price
+   - Covers oilseeds
+   - Farmer sells in open market
+   - Government pays deficiency based on modal price
+
+3. PRIVATE PROCUREMENT & STOCKIST SCHEME (PPSS):
+   - Involves private sector in procurement
+   - Private players procure at MSP with service charges
+   - Government provides logistics, infrastructure support
+   - Pilot basis implementation
+
+COVERAGE:
+Notified oilseeds: Groundnut, sunflower, soybean, sesamum, safflower, niger seed, rapeseed & mustard
+Pulses: Tur, moong, urad, masoor, gram, etc.
+Copra
+
+ELIGIBILITY:
+All farmers producing covered crops
+
+KEY FEATURES:
+- Ensures farmers get MSP for their produce
+- Reduces distress sales
+- Multiple mechanisms for price support
+- State government involvement
+- Market-linked payments in PDPS
+
+IMPLEMENTATION:
+- States notify intention to participate
+- Select appropriate scheme based on state capacity
+- Central government provides financial and logistic support
+
+
+SCHEME 29: MISSION FOR INTEGRATED DEVELOPMENT OF HORTICULTURE (MIDH)
+-------------------------------------------------------------------
+Launch Year: 2014-15 (merger of various horticulture schemes)
+Ministry/Department: Ministry of Agriculture & Farmers Welfare
+Scheme Type: Horticulture Development
+Status: Active
+
+OBJECTIVE:
+Holistic growth of horticulture sector through area-based regionally differentiated strategies
+
+COVERAGE:
+Fruits, vegetables, root & tuber crops, mushrooms, spices, flowers, aromatic plants, cashew, cocoa
+
+COMPONENTS:
+
+1. NATIONAL HORTICULTURE MISSION (NHM)
+2. HORTICULTURE MISSION FOR NORTH EAST & HIMALAYAN STATES (HMNEH)
+3. NATIONAL HORTICULTURE BOARD (NHB)
+4. COCONUT DEVELOPMENT BOARD (CDB)
+5. CENTRAL INSTITUTE OF HORTICULTURE (CIH), Nagaland
+
+KEY INTERVENTIONS:
+
+PRODUCTION:
+- Planting material production
+- Area expansion under horticulture
+- Rejuvenation/replacement of senile plantations
+- Creation of water resources for horticulture
+- Protected cultivation
+- Precision farming
+- Organic farming
+- Integrated Nutrient Management (INM)
+- Integrated Pest Management (IPM)
+
+POST-HARVEST MANAGEMENT:
+- Pack houses
+- Pre-cooling units
+- Cold storage
+- Controlled atmosphere storage
+- Ripening chambers
+- Refer vans
+- Primary processing units
+- Minimal processing units
+
+MARKETING:
+- Rural haats/markets
+- Retail markets
+- Wholesale markets
+- Strengthening of marketing infrastructure
+
+FINANCIAL PATTERN:
+- 60:40 (Centre:State) for general category states
+- 90:10 for NE & Himalayan states
+- 100% central for Union Territories
+
+SUBSIDY PATTERN:
+- Up to 40% for general farmers
+- Up to 50% for small/marginal farmers, SC/ST
+- Higher subsidy for community/group activities
+
+APPLICATION MODE: Through State Horticulture Missions
+
+
+SCHEME 30: PRADHAN MANTRI KISAN URJA SURAKSHA EVAM UTTHAAN MAHABHIYAN (PM-KUSUM)
+-------------------------------------------------------------------------------
+Launch Year: March 2019
+Ministry/Department: Ministry of New & Renewable Energy
+Scheme Type: Solar Energy for Agriculture
+Status: Active
+Target: 30.8 GW solar capacity by 2022 (extended)
+
+OBJECTIVE:
+Provide financial and water security to farmers through solar power
+
+THREE COMPONENTS:
+
+COMPONENT A: Renewable Power Plants
+- 10,000 MW decentralized ground/stilt mounted solar power plants
+- Set up on barren/fallow land
+- Sell power to DISCOMs
+- Additional income for farmers
+
+COMPONENT B: Solar Agricultural Pumps
+- 20 lakh standalone solar pumps
+- Replace/supplement diesel pumps
+- Subsidy: 30% by Centre, 30% by State, 30% by bank loan, 10% by farmer
+- Reduces electricity cost
+- Day-time irrigation
+
+COMPONENT C: Grid-Connected Solar Pumps
+- Solarization of 15 lakh existing grid-connected pumps
+- Sell surplus power to grid
+- Dual income: Agriculture + power sale
+- Reduces subsidy burden on governments
+
+FINANCIAL BENEFIT:
+
+COMPONENT A:
+- Farmer gets lease rent for land
+- Or farmer invests and sells power (₹25-30 year contract)
+
+COMPONENT B:
+- 60% central and state subsidy
+- 30% loan from banks
+- Farmer pays only 10%
+
+COMPONENT C:
+- Similar subsidy pattern
+- Additional income from power sale
+
+ELIGIBILITY:
+- Individual farmers
+- Farmer Producer Organizations (FPOs)
+- Cooperatives
+- Panchayats
+- Water User Associations
+
+KEY FEATURES:
+- Reduces diesel consumption
+- Clean energy
+- Additional income source
+- Water and energy security
+- Reduces transmission losses
+
+EXPECTED OUTCOMES:
+- 15 lakh farmers benefited
+- ₹50,000-60,000 crore investment
+- De-dieselization of agriculture
+- Additional income: ₹25,000-₹1,00,000 per year per farmer
+
+APPLICATION MODE: Through State Nodal Agencies for renewable energy
+
+
+SCHEME 31: GRAMIN BHANDARAN YOJANA (GBY)
+---------------------------------------
+Ministry/Department: Ministry of Agriculture & Farmers Welfare (DMIC - Directorate of Marketing & Inspection)
+Scheme Type: Warehousing Infrastructure
+Status: Active
+
+OBJECTIVE:
+Create scientific storage capacity with allied facilities in rural areas
+
+STORAGE CAPACITY: 50 MT to 30,000 MT
+
+FINANCIAL BENEFIT:
+SUBSIDY STRUCTURE:
+- For capacity 100 to 30,000 MT: 15% of project cost (maximum ₹1.50 crore)
+- SC/ST farmers/entrepreneurs: 25% (maximum ₹2.50 crore)
+- For NE States and hilly areas: 33.33% (maximum ₹3.33 crore)
+- For Cooperative Societies of SC/ST in NE & hills: 33.33%
+
+ELIGIBLE STRUCTURES:
+- Conventional brick & cement warehouses
+- Silos (steel/concrete) for foodgrains
+- Cold storage (including CA/MA stores)
+- Combination of above
+
+TECHNICAL SPECIFICATIONS:
+- Pucca floor
+- Proper ventilation
+- Fumigation facility
+- Fire safety measures
+- Quality construction materials
+
+ELIGIBILITY:
+- Individual farmers
+- Cooperative societies
+- Farmers Producer Organizations
+- Self Help Groups
+- State Government agencies
+- NGOs
+- Corporations
+- Companies
+- Partnership/Proprietorship firms
+
+LOAN FACILITY:
+- Available from NABARD, NCW, Scheduled Commercial Banks
+- Project cost minus subsidy can be financed
+
+KEY FEATURES:
+- Reduces post-harvest losses
+- Better price realization through scientific storage
+- Creates rural infrastructure
+- Generates employment
+- Convergence with NABARD schemes
+
+APPLICATION MODE: Through respective State Marketing/Cooperation Departments
+
+
+SCHEME 32: NATIONAL LIVESTOCK MISSION (NLM)
+------------------------------------------
+Launch Year: 2014-15
+Ministry/Department: Ministry of Fisheries, Animal Husbandry & Dairying
+Scheme Type: Livestock Development
+Status: Active
+
+OBJECTIVE:
+Sustainable development of livestock sector with focus on improving availability of quality feed and fodder, risk coverage, effective extension, and improved flow of credit
+
+FOUR SUB-MISSIONS:
+
+1. FODDER AND FEED DEVELOPMENT:
+   - Fodder production and preservation
+   - Feed manufacturing and quality control
+   - Silage making
+   - Concentrate feed production
+   - Mineral mixture production
+   - Area expansion for fodder cultivation
+
+2. BREED DEVELOPMENT AND CONSERVATION:
+   - Breed multiplication farms
+   - Semen stations
+   - Artificial Insemination network strengthening
+   - Indigenous breed conservation
+   - Sex sorted semen technology
+   - Genomic selection
+
+3. INNOVATION AND EXTENSION:
+   - Technology transfer
+   - Farmers' training
+   - Livestock extension reforms
+   - Mobile-based extension services
+   - Innovation fund for startups
+
+4. RISK COVERAGE/INSURANCE:
+   - Livestock insurance schemes
+   - Protection against mortality
+   - Coverage for exotic/crossbred cattle, buffalo, sheep, goat, pig, poultry
+
+FINANCIAL PATTERN:
+- 60:40 (Centre:State) for general states
+- 90:10 for NE & Himalayan states
+- 100% for UTs
+
+SUBSIDY PATTERN:
+- General farmers: up to 40%
+- SC/ST/Women: up to 50%
+- For community/cooperative: Higher subsidy
+
+COMPONENTS COVERED:
+- Dairy development
+- Poultry development
+- Small ruminants (goat, sheep)
+- Pig development
+- Feed and fodder development
+- Skill development and extension
+
+ELIGIBILITY:
+Farmers, cooperatives, FPOs, SHGs, private sector, government agencies
+
+EXPECTED OUTCOMES:
+- Increased livestock productivity
+- Better animal health
+- Enhanced farmers' income from livestock
+- Nutritional security (milk, egg, meat)
+
+
+SCHEME 33: BLUE REVOLUTION - INTEGRATED DEVELOPMENT & MANAGEMENT OF FISHERIES
+---------------------------------------------------------------------------
+Launch Year: Ongoing
+Ministry/Department: Ministry of Fisheries, Animal Husbandry & Dairying
+Scheme Type: Fisheries Development
+Status: Active (Now merged with PMMSY components)
+
+OBJECTIVE:
+Enhance fish production and productivity through sustainable development of fisheries
+
+KEY COMPONENTS:
+
+1. NATIONAL FISHERIES DEVELOPMENT BOARD (NFDB):
+   - Policy formulation
+   - Coordination
+   - Capacity building
+
+2. DEVELOPMENT OF INLAND FISHERIES:
+   - Tank/pond development
+   - Recirculating Aquaculture Systems (RAS)
+   - Cage culture in reservoirs
+   - Pen culture in open waters
+   - Integrated farming
+   - Ornamental fisheries
+
+3. DEVELOPMENT OF MARINE FISHERIES:
+   - Mariculture
+   - Seaweed cultivation
+   - Fishing harbors and landing centers
+   - Deep sea fishing
+   - Marine fishing boats/vessels
+
+4. DEVELOPMENT OF COLD WATER FISHERIES:
+   - Trout farming
+   - Carp culture in hills
+   - Infrastructure for cold water regions
+
+5. WELFARE MEASURES:
+   - Saving-cum-relief scheme for fishers
+   - Group accident insurance
+   - Housing for fishers
+   - Community halls and toilets
+
+FINANCIAL BENEFIT:
+- Subsidy on various interventions (25% to 50%)
+- Higher for SC/ST/Women beneficiaries
+- Credit-linked subsidy through banks
+
+ELIGIBILITY:
+Fishers, fish farmers, SHGs, FPOs, cooperatives, entrepreneurs
+
+APPLICATION MODE: Through State Fisheries Departments
+
+
+SCHEME 34: NATIONAL PROGRAMME FOR DAIRY DEVELOPMENT (NPDD)
+---------------------------------------------------------
+Ministry/Department: Ministry of Fisheries, Animal Husbandry & Dairying
+Scheme Type: Dairy Development
+Status: Active
+
+OBJECTIVE:
+Create/strengthen infrastructure for quality milk procurement, processing, and marketing
+
+COMPONENTS:
+
+1. RATION BALANCING PROGRAMME (RBP):
+   - Scientific feeding of milch animals
+   - Reduces feed cost by 10-15%
+   - Increases milk production by 15-20%
+   - Reduces methane emission
+
+2. NATIONAL DAIRY PLAN (NDP):
+   - Breed improvement of indigenous cattle
+   - Strengthening village-level infrastructure
+   - Milk procurement and processing
+   - Feed and fodder development
+
+3. DAIRY PROCESSING & INFRASTRUCTURE DEVELOPMENT FUND (DIDF):
+   - Financing for dairy infrastructure
+   - Milk processing capacity enhancement
+   - Value-added products
+   - Modern dairy plants
+
+IMPLEMENTING AGENCY:
+National Dairy Development Board (NDDB)
+
+FINANCIAL PATTERN:
+- Varies by component
+- Mix of grants and loans
+- State government participation
+
+ELIGIBLE ACTIVITIES:
+- Cattle/buffalo breed improvement
+- Fodder production and processing
+- Milk procurement and chilling infrastructure
+- Milk processing and product manufacturing
+- Dairy equipment
+- Testing laboratories
+- Training and capacity building
+
+BENEFICIARIES:
+Dairy cooperatives, Milk Producer Companies, FPOs, Milk Unions, private dairies
+
+EXPECTED OUTCOMES:
+- Increased milk production
+- Better milk quality
+- Improved processing infrastructure
+- Enhanced dairy farmers' income
+- Reduced import of milk powder
+
+
+SCHEME 35: ANIMAL HUSBANDRY INFRASTRUCTURE DEVELOPMENT FUND (AHIDF)
+------------------------------------------------------------------
+Launch Year: July 2020
+Ministry/Department: Ministry of Fisheries, Animal Husbandry & Dairying
+Scheme Type: Infrastructure Financing
+Total Outlay: ₹15,000 crore
+
+OBJECTIVE:
+Incentivize private investment in dairy, meat processing and animal feed infrastructure
+
+ELIGIBLE PROJECTS:
+
+1. DAIRY PROCESSING:
+   - Milk processing plants
+   - Value-added products manufacturing
+   - Milk chilling units
+   - Bulk milk coolers
+
+2. MEAT PROCESSING:
+   - Modern abattoirs
+   - Meat processing units
+   - By-product utilization units
+   - Cold chain for meat
+
+3. ANIMAL FEED MANUFACTURING:
+   - Cattle feed plants
+   - Poultry feed plants
+   - Mineral mixture units
+   - Silage making units
+
+FINANCIAL BENEFIT:
+- 3% interest subvention for 8 years
+- 2-year moratorium on principal
+- Credit guarantee up to 25% for loans up to ₹25 crore
+- Loan tenor: 10 years
+
+ELIGIBILITY:
+- Farmer Producer Organizations (FPOs)
+- MSMEs
+- Section 8 Companies
+- Private Companies
+- Individual Entrepreneurs
+
+LOAN SIZE:
+₹10 crore to ₹500 crore per project
+
+LENDING INSTITUTIONS:
+Scheduled Commercial Banks, NBFCs, NABARD
+
+MINIMUM PROMOTER EQUITY: 10% of project cost
+
+KEY FEATURES:
+- Focus on private sector participation
+- Creation of modern infrastructure
+- Value addition in animal products
+- Employment generation
+- Atmanirbhar Bharat in animal products
+
+APPLICATION: Through DAHD portal and lending banks
+
+
+SCHEME 36: RASHTRIYA GOKUL MISSION (RGM)
+---------------------------------------
+Launch Year: December 2014
+Ministry/Department: Ministry of Fisheries, Animal Husbandry & Dairying
+Scheme Type: Indigenous Cattle Breed Development
+Status: Active
+
+OBJECTIVE:
+Development and conservation of indigenous bovine breeds
+
+KEY COMPONENTS:
+
+1. GOKUL GRAMS:
+   - Integrated indigenous cattle centers
+   - Breed multiplication
+   - In-situ conservation
+   - Minimum 1,000 breeding females
+
+2. INDIGENOUS BREED DEVELOPMENT:
+   - 43 indigenous cattle breeds
+   - 16 indigenous buffalo breeds
+   - Breed improvement through selection
+   - Pedigree maintenance
+
+3. PRODUCTIVITY ENHANCEMENT:
+   - Better feeding practices
+   - Health management
+   - Scientific breeding
+   - Sex-sorted semen usage
+
+4. GENOMIC SELECTION:
+   - Use of advanced breeding technologies
+   - Genomic selection for bulls
+   - Faster genetic gain
+
+ELIGIBLE BREEDS (Examples):
+CATTLE: Gir, Sahiwal, Rathi, Deoni, Red Sindhi, Tharparkar, Kankrej, Ongole, Hariana, etc.
+BUFFALO: Murrah, Mehsana, Jaffarabadi, Bhadawari, Surti, Nagpuri, Pandharpuri, etc.
+
+FINANCIAL SUPPORT:
+- Establishment of Gokul Grams: ₹50 crore per unit
+- Breed multiplication farms
+- Semen stations for indigenous breeds
+- Subsidy for farmers maintaining indigenous breeds
+
+ELIGIBILITY:
+Government farms, cooperatives, FPOs, private sector, NGOs
+
+KEY FEATURES:
+- Conservation of 43 indigenous cattle breeds
+- A2 milk production promotion
+- Cultural and economic significance
+- Sustainable agriculture through cow-based farming
+- Protection of Germplasm
+
+EXPECTED OUTCOMES:
+- Enhanced population of indigenous breeds
+- Better productivity of native cattle
+- Preservation of genetic diversity
+- Higher farmer income from quality breeds
+
+
+SCHEME 37: INTEREST SUBVENTION SCHEME FOR ANIMAL HUSBANDRY
+---------------------------------------------------------
+Ministry/Department: Ministry of Fisheries, Animal Husbandry & Dairying
+Scheme Type: Credit Support
+Status: Active
+
+OBJECTIVE:
+Provide affordable credit to farmers for animal husbandry activities
+
+FINANCIAL BENEFIT:
+- 3% interest subvention on loans
+- Effective interest rate reduced for animal husbandry loans
+- Available for dairy, poultry, goatry, piggery, fisheries
+
+ELIGIBLE ACTIVITIES:
+- Purchase of milch animals
+- Poultry farming (broiler, layer)
+- Goat/sheep rearing
+- Pig farming
+- Fishery (pond, tank, cage culture)
+- Feed manufacturing
+- Dairy equipment
+- Modern sheds and infrastructure
+
+LOAN LIMIT: As per bank norms and project cost
+
+BENEFICIARIES:
+Individual farmers, FPOs, cooperatives, SHGs
+
+LENDING INSTITUTIONS:
+Commercial banks, RRBs, Cooperative banks
+
+KEY FEATURES:
+- Makes animal husbandry credit affordable
+- Promotes entrepreneurship in livestock
+- Reduces dependence on moneylenders
+- Linked with other animal husbandry schemes
+
+APPLICATION: Through banks with project reports
+
+
+SCHEME 38: NATIONAL KAMDHENU BREEDING CENTRES (NKBC)
+---------------------------------------------------
+Launch Year: Announced in Union Budget
+Ministry/Department: Ministry of Fisheries, Animal Husbandry & Dairying
+Scheme Type: Breed Improvement
+Status: Under implementation
+
+OBJECTIVE:
+Scientifically conserve and develop indigenous breeds; increase milk production and productivity
+
+KEY FEATURES:
+- Establishment of Kamdhenu Breeding Centers
+- Focus on indigenous cow breeds
+- Modern breeding technologies
+- Embryo transfer technology
+- Sex-sorted semen
+- Artificial insemination services
+
+TARGET:
+Development of indigenous cattle population with better productivity
+
+BENEFITS:
+- Better quality indigenous breeding bulls
+- Improved genetic material
+- Increased milk production
+- Conservation of native breeds
+
+
+SCHEME 39: E-PASHUDHAN HAAT PORTAL
+---------------------------------
+Launch Year: 2016
+Ministry/Department: Ministry of Fisheries, Animal Husbandry & Dairying
+Type: Digital Platform
+Status: Active
+
+OBJECTIVE:
+Connect breeders and farmers for buying and selling of bovine germplasm (semen, embryo) and live bovine stock
+
+FEATURES:
+- Online marketplace for livestock
+- Quality germplasm trade
+- Transparency in transactions
+- Breed information
+- Disease-free certification verification
+- Direct connect between buyers and sellers
+
+BENEFITS:
+- Easy access to quality animals
+- Fair price discovery
+- Reduced intermediaries
+- Verification of animal health status
+- Breed authentication
+
+WEBSITE: epashuhaat.gov.in
+
+
+SCHEME 40: E-GOPALA APP
+----------------------
+Launch Year: 2020
+Ministry/Department: Ministry of Fisheries, Animal Husbandry & Dairying
+Type: Digital Platform/Mobile App
+Status: Active
+
+OBJECTIVE:
+Comprehensive breed improvement marketplace and information portal for direct farmer engagement
+
+FEATURES:
+
+1. ANIMAL IDENTIFICATION:
+   - Unique Identification Number (UIN) for animals
+   - Digital cattle registry
+   - Breed information
+
+2. BUYING AND SELLING:
+   - Buy/sell bovine germplasm and animals
+   - Connect with breeders, AI technicians
+
+3. INFORMATION SERVICES:
+   - Disease diagnosis support
+   - Treatment directory (vets, hospitals, ambulance)
+   - Vaccination schedules
+   - Nutrition information
+   - Breeding services directory
+
+4. FARMERS' KNOWLEDGE BASE:
+   - Best practices in animal husbandry
+   - Advisory services
+   - Helpline integration
+
+AVAILABLE IN: Multiple Indian languages
+
+BENEFITS:
+- Easy farmer access to livestock services
+- Trace animal health history
+- Better management decisions
+- Quick access to veterinary help
+
+DOWNLOAD: Available on Google Play Store and Apple App Store
+
+
+================================================================================
+SECTION 2: STATE GOVERNMENT SCHEMES
+================================================================================
+
+STATE: TELANGANA
+================
+
+SCHEME 1: RYTHU BANDHU SCHEME
+----------------------------
+Launch Year: May 10, 2018 (Pioneer scheme)
+Department: Agriculture & Cooperation Department, Telangana
+Type: Investment Support
+Status: Active
+
+OBJECTIVE:
+Provide investment support to farmers for purchase of agricultural inputs
+
+FINANCIAL BENEFIT:
+- ₹5,000 per acre per season
+- For both Kharif and Rabi seasons
+- Total: ₹10,000 per acre per year
+- Direct cash transfer to farmer's bank account
+
+ELIGIBILITY:
+All landholding farmers in Telangana (tied to land ownership)
+
+KEY FEATURES:
+- First direct cash transfer scheme for farmers in India (inspired PM-KISAN)
+- No restrictions on use of funds
+- Timely financial assistance before sowing season
+- 100% state-funded
+
+BENEFICIARIES: Over 60 lakh farmers
+
+SIGNIFICANCE:
+This scheme was the pioneer that inspired the central PM-KISAN scheme
+
+
+SCHEME 2: RYTHU BHEEMA (FARMER LIFE INSURANCE)
+---------------------------------------------
+Department: Agriculture Department, Telangana
+Type: Insurance
+Status: Active
+
+FINANCIAL BENEFIT:
+- ₹5 lakh life insurance coverage
+- Free of cost (no premium from farmer)
+- State government pays premium
+
+ELIGIBILITY:
+All farmers aged 18-59 years in Telangana
+
+COVERAGE:
+Death due to any reason (natural or accidental)
+
+KEY FEATURES:
+- Zero premium for farmers
+- Comprehensive life coverage
+- Quick claim settlement
+- Family financial security
+
+
+STATE: ODISHA
+============
+
+SCHEME: KRUSHAK ASSISTANCE FOR LIVELIHOOD AND INCOME AUGMENTATION (KALIA)
+------------------------------------------------------------------------
+Launch Year: December 21, 2018
+Department: Agriculture & Farmers' Empowerment Department
+Type: Multi-benefit scheme
+Status: Active
+Total Outlay: ₹10,180 crore (2018-22)
+
+FIVE COMPONENTS:
+
+1. FINANCIAL ASSISTANCE FOR CULTIVATION:
+   - ₹12,500 per family for Kharif and Rabi (₹25,000 per year)
+   - For small and marginal farmers
+   - For purchase of seeds, fertilizers, pesticides, labor
+
+2. LIVELIHOOD SUPPORT FOR LANDLESS:
+   - ₹12,500 per year
+   - For landless agricultural households
+   - For activities like goat rearing, poultry, fishery, mushroom cultivation, beekeeping
+
+3. VULNERABLE AGRICULTURAL HOUSEHOLD SUPPORT:
+   - ₹10,000 per year
+   - For aged, disabled, small & marginal landless agricultural laborers
+   - Social safety net
+
+4. LIFE INSURANCE:
+   - ₹2 lakh coverage
+   - Age: 18-50 years
+   - Free premium for beneficiaries (state pays ₹330 per person)
+
+5.

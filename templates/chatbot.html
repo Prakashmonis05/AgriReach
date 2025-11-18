@@ -1,10 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact | Agrireach</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Assistant - AgriReach</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Smooth message entry */
+    .message-slide {
+      animation: slideIn 0.25s ease-out;
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Typing dots animation */
+    .typing-indicator span {
+      animation: blink 1.4s infinite;
+      animation-fill-mode: both;
+    }
+    .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+    .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes blink {
+      0%, 60%, 100% { opacity: 0.3; }
+      30% { opacity: 1; }
+    }
+
+    /* Scrollbar */
+    #chatbox::-webkit-scrollbar { width: 6px; }
+    #chatbox::-webkit-scrollbar-thumb { background: #cbd5e0; border-radius: 10px; }
+    #chatbox::-webkit-scrollbar-thumb:hover { background: #a0aec0; }
+
+    /* TEXT WRAPPING */
+    .bot-message, .user-message {
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    /* FINAL PERFECT BUBBLE STYLE — EXACT PADDING: 8px 12px */
+    .message-bubble {
+      padding: 8px 12px !important;
+      border-radius: 16px;
+      max-width: 90%;
+      display: inline-block;
+    }
+
+    /* User bubble styling */
+    .user-bubble {
+      background: #16a34a; /* green-600 */
+      color: white;
+      border-top-right-radius: 0;
+    }
+
+    /* Bot bubble styling */
+    .bot-bubble {
+      background: #f3f4f6; /* gray-100 */
+      color: #111827;      /* gray-900 */
+      border-top-left-radius: 0;
+    }
+
+    /* Remove unwanted outer spacing */
+    .message-row {
+      margin: 2px 0 !important;
+      padding: 0 !important;
+    }
+
+    /* Avatar size compact */
+    .message-avatar {
+      width: 32px !important;
+      height: 32px !important;
+    }
+
+    .bot-bubble h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.bot-bubble p {
+  margin: 6px 0;
+}
+
+.bot-bubble ul {
+  padding-left: 20px;
+  margin: 6px 0;
+}
+
+.bot-bubble li {
+  list-style-type: disc;
+  margin: 3px 0;
+}
+
+   
+
+
+  </style>
 </head>
-<body>
-  <h1>Chatbot Page</h1>
+
+<body class="bg-gray-100">
+
+{% include 'navbar.html' %}
+
+
+
+  <!-- Main Chat Container -->
+  <div class="flex-1 flex flex-col max-w-5xl mx-auto w-full p-4">
+
+    <!-- Chat Header -->
+    <div class="bg-white rounded-t-2xl shadow-lg px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
+          <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path>
+          </svg>
+        </div>
+        <div>
+          <h2 class="text-xl font-semibold text-gray-800">AgriBot Assistant</h2>
+          <p class="text-sm text-green-600 flex items-center">
+            <span class="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
+            Online
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat Messages -->
+    <div id="chatbox" class="flex-1 bg-white px-6 py-4 shadow-lg overflow-y-scroll"
+     style="max-height: calc(100vh - 280px);">
+
+  {% for msg in history %}
+  {% if msg.role == 'user' %}
+  <div class="flex items-start space-x-2 message-row flex-row-reverse space-x-reverse">
+      <div class="message-avatar bg-blue-600 rounded-full flex items-center justify-center text-white">👤</div>
+      <div class="flex flex-col items-end max-w-xl">
+        <div class="message-bubble user-bubble">{{ msg.message }}</div>
+        <span class="text-xs text-gray-500 mt-1">{{ msg.timestamp.strftime("%I:%M %p") }}</span>
+      </div>
+  </div>
+  {% else %}
+  <div class="flex items-start space-x-2 message-row">
+      <div class="message-avatar bg-green-600 rounded-full flex items-center justify-center text-white">🤖</div>
+      <div class="flex flex-col max-w-xl">
+        <div class="message-bubble bot-bubble">{{ msg.message }}</div>
+        <span class="text-xs text-gray-500 mt-1">{{ msg.timestamp.strftime("%I:%M %p") }}</span>
+      </div>
+  </div>
+  {% endif %}
+{% endfor %}
+
+
+  <!-- FIRST WELCOME BOT MESSAGE (only if no history) -->
+  {% if history|length == 0 %}
+  <div class="flex items-start space-x-2 message-row">
+    <div class="message-avatar bg-green-600 rounded-full flex items-center justify-center text-white">🤖</div>
+    <div class="message-bubble bot-bubble">
+      👋 Hello! I'm AgriBot, your farming assistant. Ask me anything!
+    </div>
+  </div>
+  {% endif %}
+
+</div>
+
+
+    <!-- Input Box -->
+    <div class="bg-white rounded-b-2xl shadow-lg px-6 py-4">
+      <div class="flex space-x-3">
+        <input id="userInput" type="text"
+          placeholder="Type your farming question here..."
+          class="flex-1 px-4 py-3 border-2 border-gray-200 rounded-full focus:outline-none focus:border-green-500"
+          onkeydown="if(event.key==='Enter') sendMessage()" />
+        <button onclick="sendMessage()" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-medium flex items-center space-x-2">
+          <span>Send</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+// Mobile menu toggle
+document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+  const menu = document.getElementById('mobile-menu');
+  menu.classList.toggle('active');
+});
+
+function appendMessage(sender, text) {
+  const chatbox = document.getElementById("chatbox");
+  const row = document.createElement("div");
+
+  row.className = "flex items-start space-x-2 message-row message-slide";
+
+  const time = new Date().toLocaleTimeString("en-US", {
+    hour: "2-digit", minute: "2-digit"
+  });
+
+  if (sender === "user") {
+    row.classList.add("flex-row-reverse", "space-x-reverse");
+
+    row.innerHTML = `
+      <div class="message-avatar bg-blue-600 rounded-full flex items-center justify-center text-white">👤</div>
+      <div class="flex flex-col items-end max-w-xl">
+        <div class="message-bubble user-bubble">${text}</div>
+        <span class="text-xs text-gray-500 mt-1">${time}</span>
+      </div>
+    `;
+  } else {
+  row.innerHTML = `
+    <div class="message-avatar bg-green-600 rounded-full flex items-center justify-center text-white">🤖</div>
+    <div class="flex flex-col max-w-xl">
+      <div class="message-bubble bot-bubble">${marked.parse(text)}</div>
+      <span class="text-xs text-gray-500 mt-1">${time}</span>
+    </div>
+  `;
+}
+
+
+  chatbox.appendChild(row);
+  chatbox.scrollTop = chatbox.scrollHeight;
+}
+
+
+function appendTypingIndicator() {
+  const chatbox = document.getElementById("chatbox");
+  const row = document.createElement("div");
+
+  row.id = "typing-indicator";
+  row.className = "flex items-start space-x-2 message-row";
+
+  row.innerHTML = `
+    <div class="message-avatar bg-green-600 rounded-full flex items-center justify-center text-white">...</div>
+    <div class="message-bubble bot-bubble">
+      <div class="typing-indicator flex space-x-1">
+        <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
+        <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
+        <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
+      </div>
+    </div>
+  `;
+
+  chatbox.appendChild(row);
+  chatbox.scrollTop = chatbox.scrollHeight;
+}
+
+function removeTypingIndicator() {
+  const t = document.getElementById("typing-indicator");
+  if (t) t.remove();
+}
+
+async function sendMessage() {
+  const input = document.getElementById("userInput");
+  const text = input.value.trim();
+  if (!text) return;
+
+  appendMessage("user", text);
+  input.value = "";
+
+  appendTypingIndicator();
+
+  try {
+    const res = await fetch("/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: text })
+    });
+
+    const data = await res.json();
+    removeTypingIndicator();
+    appendMessage("bot", data.reply || "⚠️ No reply.");
+  } catch {
+    removeTypingIndicator();
+    appendMessage("bot", "⚠️ Server error.");
+  }
+}
+</script>
+<script>
+  window.addEventListener("load", () => {
+    const chatbox = document.getElementById("chatbox");
+    if (chatbox) {
+      chatbox.scrollTop = chatbox.scrollHeight;
+    }
+  });
+</script>
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+    const botMessages = document.querySelectorAll(".bot-bubble");
+    botMessages.forEach(m => {
+        m.innerHTML = marked.parse(m.innerHTML);
+    });
+});
+</script>
+
+
+
+
 </body>
 </html>

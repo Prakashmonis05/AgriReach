@@ -1,11 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact | Agrireach</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Forecast - AgriReach</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    
+    .card-hover {
+      transition: all 0.3s ease;
+    }
+    
+    .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
-<body>
-  <h1>Weather Page</h1>
+<body class="font-[Poppins] bg-gray-50">
 
+  <!-- Navbar -->
+ {% include 'navbar.html' %}
+
+  <!-- Hero Section -->
+  <section class="relative h-[25vh] bg-gradient-to-r from-blue-600 to-blue-400 flex items-center justify-center text-center text-white">
+    <div class="relative z-10 max-w-3xl px-6">
+      <h1 class="text-3xl md:text-4xl font-bold mb-2">Weather Forecast</h1>
+      <p class="text-base md:text-lg text-blue-50">Get accurate 10-day weather predictions for better farming decisions</p>
+    </div>
+  </section>
+
+  <!-- Weather Search Section -->
+  <section class="py-6 px-4 md:px-8 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl shadow-lg p-5">
+        <h2 class="text-xl font-bold text-gray-800 mb-4 text-center">Search Weather Forecast</h2>
+        
+        <form method="POST" class="flex flex-col sm:flex-row justify-center gap-3">
+          <input 
+            type="text" 
+            name="city" 
+            placeholder="Enter city name (e.g., Mumbai, Delhi)" 
+            required
+            class="border-2 border-blue-300 p-3 rounded-lg flex-grow focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none text-gray-700 font-medium"
+          >
+          <button 
+            type="submit"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
+          >
+            Get Forecast
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Weather Results Section -->
+  {% if city %}
+  <section class="py-6 px-4 md:px-8 bg-gray-50">
+    <div class="max-w-7xl mx-auto">
+      {% if weather_data %}
+        <div class="text-center mb-6">
+          <h2 class="text-2xl font-bold text-gray-800 mb-1">
+            10-Day Forecast for <span class="text-blue-600">{{ city|capitalize }}</span>
+          </h2>
+          <p class="text-gray-600 text-sm">Plan your farming activities with confidence</p>
+        </div>
+
+        <div class="overflow-x-auto pb-4">
+          <div class="flex gap-4 min-w-max">
+          {% for day in weather_data %}
+            <div class="bg-white rounded-lg shadow-lg p-4 card-hover border-2 border-blue-100 w-64 flex-shrink-0">
+              <div class="text-center">
+                <p class="text-sm font-bold text-gray-800 mb-2">{{ day.date }}</p>
+                
+                <div class="flex justify-center mb-2">
+                  <img src="{{ day.day.condition.icon }}" alt="weather icon" class="w-12 h-12">
+                </div>
+                
+                <p class="text-blue-700 font-semibold mb-3 text-sm">{{ day.day.condition.text }}</p>
+                
+                <div class="space-y-1.5 text-left text-xs text-gray-700">
+                  <div class="flex items-center justify-between bg-blue-50 p-1.5 rounded">
+                    <span class="font-medium">🌡 Avg Temp:</span>
+                    <span class="font-bold text-blue-600">{{ day.day.avgtemp_c }}°C</span>
+                  </div>
+                  
+                  <div class="flex items-center justify-between bg-orange-50 p-1.5 rounded">
+                    <span class="font-medium">🌞 Max:</span>
+                    <span class="font-bold text-orange-600">{{ day.day.maxtemp_c }}°C</span>
+                  </div>
+                  
+                  <div class="flex items-center justify-between bg-cyan-50 p-1.5 rounded">
+                    <span class="font-medium">🌙 Min:</span>
+                    <span class="font-bold text-cyan-600">{{ day.day.mintemp_c }}°C</span>
+                  </div>
+                  
+                  <div class="flex items-center justify-between bg-teal-50 p-1.5 rounded">
+                    <span class="font-medium">💧 Humidity:</span>
+                    <span class="font-bold text-teal-600">{{ day.day.avghumidity }}%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+          </div>
+        </div>
+
+      {% else %}
+        <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-lg p-6 text-center">
+          <div class="text-red-500 text-4xl mb-3">⚠️</div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">City Not Found</h3>
+          <p class="text-gray-600 text-sm">
+            No weather data found for "<span class="font-semibold">{{ city }}</span>". 
+            Please check the spelling and try again.
+          </p>
+        </div>
+      {% endif %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if weather_data %}
+<section class="py-8 px-4 md:px-8 bg-white">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl font-bold text-gray-800 mb-5 text-center">
+      Weather Analytics
+    </h2>
+
+    <!-- Temperature Chart -->
+    <div class="bg-white shadow-lg rounded-xl p-4 mb-6">
+      <h3 class="text-lg font-semibold mb-3">Temperature Trends (10 Days)</h3>
+      <div style="height: 250px; position: relative;">
+        <canvas id="tempChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Humidity Chart -->
+    <div class="bg-white shadow-lg rounded-xl p-4">
+      <h3 class="text-lg font-semibold mb-3">Humidity Levels (10 Days)</h3>
+      <div style="height: 250px; position: relative;">
+        <canvas id="humidityChart"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+const dates = {{ dates|tojson }};
+const avgTemps = {{ avg_temps|tojson }};
+const maxTemps = {{ max_temps|tojson }};
+const minTemps = {{ min_temps|tojson }};
+const humidities = {{ humidities|tojson }};
+
+new Chart(document.getElementById("tempChart"), {
+  type: "line",
+  data: {
+    labels: dates,
+    datasets: [
+      { label: "Avg Temp (°C)", data: avgTemps, borderWidth: 2, tension: 0.3 },
+      { label: "Max Temp (°C)", data: maxTemps, borderWidth: 2, tension: 0.3 },
+      { label: "Min Temp (°C)", data: minTemps, borderWidth: 2, tension: 0.3 }
+    ]
+  },
+  options: { 
+    responsive: true, 
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        display: true,
+        position: 'top'
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: false
+      }
+    }
+  }
+});
+
+new Chart(document.getElementById("humidityChart"), {
+  type: "bar",
+  data: {
+    labels: dates,
+    datasets: [
+      { label: "Humidity (%)", data: humidities, borderWidth: 2 }
+    ]
+  },
+  options: { 
+    responsive: true, 
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        display: true,
+        position: 'top'
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        max: 100
+      }
+    }
+  }
+});
+</script>
+{% endif %}
+
+  <!-- Weather Tips Section -->
+  <section class="py-8 px-4 md:px-8 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-2xl font-bold text-gray-800 mb-5 text-center">Weather-Based Farming Tips</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-4 shadow-lg">
+          <div class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center mb-3">
+            <span class="text-xl">☀️</span>
+          </div>
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Sunny Days</h3>
+          <p class="text-gray-600 text-xs">
+            Perfect for harvesting, drying crops, and applying pesticides. Ensure adequate irrigation.
+          </p>
+        </div>
+
+        <div class="bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-lg p-4 shadow-lg">
+          <div class="bg-cyan-600 w-10 h-10 rounded-full flex items-center justify-center mb-3">
+            <span class="text-xl">🌧️</span>
+          </div>
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Rainy Days</h3>
+          <p class="text-gray-600 text-xs">
+            Ideal for sowing seeds. Avoid fertilizer application and ensure proper drainage.
+          </p>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-4 shadow-lg">
+          <div class="bg-purple-600 w-10 h-10 rounded-full flex items-center justify-center mb-3">
+            <span class="text-xl">💨</span>
+          </div>
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Windy Days</h3>
+          <p class="text-gray-600 text-xs">
+            Avoid spraying pesticides. Good for wind pollination crops. Secure lightweight structures.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
