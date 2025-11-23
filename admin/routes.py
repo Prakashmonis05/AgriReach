@@ -1,14 +1,9 @@
 from flask import render_template, request, redirect, url_for, session, flash, jsonify
 from . import admin_bp
-from models import User, Scheme, ChatMemory, db, ChatMessage, UserActivity
+from models import User, Scheme, ChatMemory, db, ChatMessage, UserActivity, Admin
 from functools import wraps
 from datetime import datetime, timedelta
-
-
-# ========= Default Admin Credentials =========
-ADMIN_USERNAME = "admin"
-ADMIN_PASSWORD = "admin123"
-
+from sqlalchemy import func, distinct
 
 # ========= Protect Routes =========
 def admin_required(f):
@@ -19,44 +14,48 @@ def admin_required(f):
         return f(*args, **kwargs)
     return wrapper
 
-
-# ========= Admin Login =========
 @admin_bp.route("/login", methods=["GET", "POST"])
 def admin_login():
     if request.method == "POST":
         username = request.form.get("username")
         password = request.form.get("password")
 
-        if username == ADMIN_USERNAME and password == ADMIN_PASSWORD:
+        admin = Admin.query.filter_by(username=username).first()
+
+        if admin and admin.check_password(password):
             session["admin_logged_in"] = True
+            session["admin_id"] = admin.id
             return redirect(url_for("admin.admin_dashboard"))
         else:
             flash("Invalid username or password", "danger")
 
     return render_template("admin/login.html")
 
-
 # ========= Admin Logout =========
 @admin_bp.route("/logout")
+@admin_required
 def admin_logout():
     session.pop("admin_logged_in", None)
+    session.pop("admin_id", None)
     return redirect(url_for("admin.admin_login"))
-
 
 # ========= Dashboard =========
 @admin_bp.route("/dashboard")
 @admin_required
 def admin_dashboard():
-    users = User.query.all()
-    return render_template("admin/dashboard.html", users=users)
-
+    users = User.query.all()   # Fetch all users
+    user_count = len(users)
+    return render_template("admin/dashboard.html", users=users,user_count=user_count)
 
 
 @admin_bp.route("/schemes")
 @admin_required
 def admin_schemes():
+    session.pop('_flashes', None)
     schemes = Scheme.query.all()
     return render_template("admin/schemes.html", schemes=schemes)
+
+
 @admin_bp.route("/schemes/create", methods=["GET", "POST"])
 @admin_required
 def admin_create_scheme():
@@ -117,12 +116,9 @@ def admin_delete_scheme(id):
     flash("Scheme deleted successfully!", "success")
     return redirect(url_for("admin.admin_schemes"))
 
-
-
 @admin_bp.route("/")
 def admin_root():
     return redirect(url_for("admin.admin_login"))
-
 
 
 @admin_bp.route("/messages", defaults={"user_id": None})
@@ -186,54 +182,44 @@ def admin_send_message(user_id):
 
 
 
-# Generic active user counter for login events
-def count_active_users(days):
+def count_unique_users(event_type, days):
     cutoff = datetime.utcnow() - timedelta(days=days)
-    return UserActivity.query \
-        .filter(UserActivity.event_type == "login") \
+    return db.session.query(func.count(distinct(UserActivity.user_id))) \
+        .filter(UserActivity.event_type == event_type) \
         .filter(UserActivity.timestamp >= cutoff) \
-        .distinct(UserActivity.user_id).count()
+        .scalar()
 
 
-# Daily Active Users
+# Daily, Weekly, Monthly Active Users (Unique)
 def get_dau():
-    return count_active_users(1)
+    return count_unique_users("login", 1)
 
-
-# Weekly Active Users
 def get_wau():
-    return count_active_users(7)
+    return count_unique_users("login", 7)
 
-
-# Monthly Active Users
 def get_mau():
-    return count_active_users(30)
+    return count_unique_users("login", 30)
 
 
-# New user signups
+# ----------- NEW USER SIGNUPS (UNIQUE) -----------
+
 def new_users(days):
-    cutoff = datetime.utcnow() - timedelta(days=days)
-    return UserActivity.query \
-        .filter(UserActivity.event_type == "signup") \
-        .filter(UserActivity.timestamp >= cutoff).count()
+    return count_unique_users("signup", days)
 
 
-# AI usage – unique users
+# ----------- AI USAGE (UNIQUE & TOTAL) -----------
+
+# Unique users who used AI
 def ai_active_users(days):
-    cutoff = datetime.utcnow() - timedelta(days=days)
-    return UserActivity.query \
-        .filter(UserActivity.event_type == "ai_usage") \
-        .filter(UserActivity.timestamp >= cutoff) \
-        .distinct(UserActivity.user_id).count()
+    return count_unique_users("ai_usage", days)
 
-
-# AI usage – total messages
+# Total AI messages (NOT unique — this is correct)
 def ai_message_count(days):
     cutoff = datetime.utcnow() - timedelta(days=days)
     return UserActivity.query \
         .filter(UserActivity.event_type == "ai_usage") \
-        .filter(UserActivity.timestamp >= cutoff).count()
-
+        .filter(UserActivity.timestamp >= cutoff) \
+        .count()
 
 # Single unified analytics API endpoint
 @admin_bp.route("/api/analytics")

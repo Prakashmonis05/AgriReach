@@ -33,7 +33,7 @@
 {% endwith %}
 
     <!-- Registration Form -->
-    <form action="{{ url_for('register') }}" method="post" class="space-y-5">
+    <form action="{{ url_for('auth.register') }}" method="post" class="space-y-5">
   <div>
     <label class="block text-gray-700 mb-2">Full Name</label>
     <input name="name" type="text" placeholder="Enter your name" required
@@ -73,7 +73,7 @@
     <!-- Login Redirect -->
     <p class="text-center text-gray-600 mt-4">
       Already have an account?
-      <a href="{{ url_for('login') }}" class="text-green-700 hover:underline">Login here</a>
+      <a href="{{ url_for('auth.login') }}" class="text-green-700 hover:underline">Login here</a>
     </p>
 
     <!-- Back to Home -->

@@ -4,7 +4,7 @@ from models import db, ChatMemory, log_activity
 
 chatbot = Blueprint('chatbot', __name__)
 
-API_KEY = "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"
+API_KEY = "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"
 BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 

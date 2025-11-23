@@ -1,11 +1,10 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash, session
-
 from models import db, User, log_activity
-
 from flask_bcrypt import Bcrypt
+from extensions import bcrypt
+
 
 auth = Blueprint('auth', __name__)
-bcrypt = Bcrypt()
 
 @auth.route('/login', methods=['GET', 'POST'])
 def login():
@@ -16,33 +15,37 @@ def login():
         # Backend Validation
         if not email or not password:
             flash('All fields are required.', 'danger')
-            return redirect(url_for('login'))
+            return redirect(url_for('auth.login'))
 
         if '@' not in email or '.' not in email:
             flash('Invalid email format.', 'danger')
-            return redirect(url_for('login'))
+            return redirect(url_for('auth.login'))
 
         if len(password) < 6:
             flash('Password must be at least 6 characters long.', 'danger')
-            return redirect(url_for('login'))
-
-        user = User.query.filter_by(email=email).first()
-        
-        if user and bcrypt.check_password_hash(user.password, password):
-
-            # 🟩 **Log activity: LOGIN**
-            log_activity(user.id, "login")
-
-            session['user_id'] = user.id
-            session['user_name'] = user.name
-            flash('Login successful!', 'success')
-            return redirect(url_for('dashboard.dashboard_page'))
-
-        else:
-            flash('Invalid email or password.', 'danger')
             return redirect(url_for('auth.login'))
 
+        user = User.query.filter_by(email=email).first()
+
+        if not user:
+            # ❌ Email not found
+            flash('Email not found.', 'danger')
+            return redirect(url_for('auth.login'))
+
+        if not bcrypt.check_password_hash(user.password, password):
+            # ❌ Incorrect password
+            flash('Incorrect password.', 'danger')
+            return redirect(url_for('auth.login'))
+
+        # 🟩 Correct login
+        log_activity(user.id, "login")
+        session['user_id'] = user.id
+        session['user_name'] = user.name
+        flash('Login successful!', 'success')
+        return redirect(url_for('dashboard.dashboard_page'))
+
     return render_template('login.html')
+
 
 @auth.route('/register', methods=['GET', 'POST'])
 def register():
