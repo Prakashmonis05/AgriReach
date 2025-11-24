@@ -1,10 +1,13 @@
 from flask import Blueprint, render_template, request, jsonify,session
 import requests
 from models import db, ChatMemory, log_activity
-
+import os
 chatbot = Blueprint('chatbot', __name__)
 
-API_KEY = "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"
+from dotenv import load_dotenv
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY1")
 BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 

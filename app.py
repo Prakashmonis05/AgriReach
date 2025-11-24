@@ -11,6 +11,9 @@ from routes.chatbot_routes import chatbot
 from routes.schemes_routes import schemes
 from routes.contact_routes import contact
 
+from dotenv import load_dotenv
+load_dotenv()
+
 app = Flask(__name__)
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -21,7 +24,7 @@ os.makedirs(INSTANCE_DIR, exist_ok=True)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{DB_PATH}"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.secret_key = "your_secret_key"
+app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
 
 db.init_app(app)
 bcrypt.init_app(app)
