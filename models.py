@@ -22,18 +22,47 @@ class ChatMemory(db.Model):
 
 
 class Scheme(db.Model):
-    __tablename__ = "scheme" 
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(255), unique=True, nullable=False)
-    launch_year = db.Column(db.Integer, nullable=False)
-    ministry = db.Column(db.String(255), nullable=False)
-    type = db.Column(db.String(255), nullable=False)
-    status = db.Column(db.String(50), nullable=False)
-    objective = db.Column(db.Text, nullable=False)
-    benefit = db.Column(db.Text, nullable=False)
-    eligibility = db.Column(db.Text, nullable=False)
-    category = db.Column(db.String(50), nullable=False)
+    __tablename__ = "scheme"
 
+    # ---- Primary Identifiers ----
+    id = db.Column(db.Integer, primary_key=True)
+    scheme_id = db.Column(db.String(50), unique=True, nullable=False)  
+    # e.g. satgmsa (from URL)
+
+    name = db.Column(db.String(255), nullable=False)
+    scheme_url = db.Column(db.String(500), nullable=False)
+
+    # ---- Coverage & Classification ----
+    state = db.Column(db.String(100), nullable=True)        # Nagaland
+    coverage_type = db.Column(db.String(50), nullable=True) # State / Central
+    category = db.Column(db.String(100), nullable=True)     # Agriculture
+
+    tags = db.Column(db.Text, nullable=True)  
+    # stored as comma-separated: "Agriculture,MSc,Student,Thesis Grant"
+
+    scheme_type = db.Column(db.String(100), nullable=True)  
+    # Grant / Subsidy / Scholarship (derived)
+
+    beneficiary_type = db.Column(db.String(100), nullable=True)  
+    # Farmer / Student / Citizen
+
+    # ---- Description (From Card) ----
+    description = db.Column(db.Text, nullable=True)
+
+    # ---- Detail Page Data (Filled Later) ----
+    ministry = db.Column(db.String(255), nullable=True)
+    launch_year = db.Column(db.Integer, nullable=True)
+    objective = db.Column(db.Text, nullable=True)
+    benefit = db.Column(db.Text, nullable=True)
+    eligibility = db.Column(db.Text, nullable=True)
+
+    # ---- Scraping Control ----
+    source = db.Column(db.String(100), default="myScheme")
+    content_hash = db.Column(db.String(64), nullable=True)
+    last_scraped = db.Column(db.DateTime, nullable=True)
+    scrape_status = db.Column(db.String(50), default="pending")
+
+    # ---- Audit ----
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     updated_at = db.Column(
         db.DateTime,

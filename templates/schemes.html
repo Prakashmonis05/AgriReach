@@ -10,6 +10,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
         .card-hover {
             transition: all 0.25s ease;
         }
@@ -21,97 +25,121 @@
     </style>
 </head>
 
-<body class="font-[Poppins] bg-gray-100">
+<body class="bg-gray-100">
 
-    <!-- NAVBAR (Same as Dashboard) -->
-   {% include 'navbar.html' %}
+{% include 'navbar.html' %}
 
-    <!-- HEADER -->
-    <header class="py-12 bg-gradient-to-r from-green-600 to-green-700 text-white text-center shadow">
-        <h1 class="text-4xl font-bold mb-3">Government Schemes</h1>
-        <p class="text-lg opacity-90">Browse subsidies, financial aid, and welfare programs designed for Indian farmers.</p>
-    </header>
+<!-- HEADER -->
+<header class="py-12 bg-gradient-to-r from-green-600 to-green-700 text-white text-center shadow">
+    <h1 class="text-4xl font-bold mb-3">Government Schemes</h1>
+    <p class="text-lg opacity-90">
+        Browse verified government schemes for farmers and citizens
+    </p>
+</header>
 
-    <!-- MAIN CONTENT -->
-    <div class="max-w-7xl mx-auto px-4 md:px-8 py-10">
+<!-- MAIN -->
+<div class="max-w-7xl mx-auto px-4 md:px-8 py-10">
 
-        <!-- Search Box -->
-        <div class="flex justify-center mb-10">
-            <input id="searchBox"
-                   type="text"
-                   placeholder="Search schemes by name, type, benefit…"
-                   class="border p-3 w-full md:w-1/2 rounded-xl shadow focus:ring-2 focus:ring-green-500 outline-none"
-                   onkeyup="searchSchemes()" />
-        </div>
-
-        <!-- Schemes Grid -->
-        <div id="schemesContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
-
-        <!-- Loader -->
-        <p id="loader" class="text-center text-lg font-semibold mt-6 hidden text-gray-700">
-            Loading schemes…
-        </p>
+    <!-- Search -->
+    <div class="flex justify-center mb-10">
+        <input id="searchBox"
+               type="text"
+               placeholder="Search by scheme name, state, category…"
+               class="border p-3 w-full md:w-1/2 rounded-xl shadow focus:ring-2 focus:ring-green-500 outline-none"
+               onkeyup="searchSchemes()" />
     </div>
 
+    <!-- Loader -->
+    <p id="loader" class="text-center text-lg font-semibold mt-6 text-gray-700">
+        Loading schemes…
+    </p>
 
-    <!-- JS LOGIC -->
-    <script>
-        const container = document.getElementById("schemesContainer");
-        const loader = document.getElementById("loader");
-        let schemesData = [];
+    <!-- Cards -->
+    <div id="schemesContainer"
+         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
+    </div>
+</div>
 
-        async function loadSchemes() {
-            loader.classList.remove("hidden");
+<!-- JS -->
+<script>
+const container = document.getElementById("schemesContainer");
+const loader = document.getElementById("loader");
+let schemesData = [];
 
-            const response = await fetch("/api/schemes");
-            const json = await response.json();
-            schemesData = json.data;
+async function loadSchemes() {
+    try {
+        const response = await fetch("/api/schemes");
+        const json = await response.json();
+        schemesData = json.data || [];
+        loader.style.display = "none";
+        displaySchemes(schemesData);
+    } catch (err) {
+        loader.innerText = "Failed to load schemes.";
+        console.error(err);
+    }
+}
 
-            loader.classList.add("hidden");
-            displaySchemes(schemesData);
-        }
+function displaySchemes(data) {
+    container.innerHTML = "";
 
-        function displaySchemes(data) {
-            container.innerHTML = "";
+    if (data.length === 0) {
+        container.innerHTML = `
+            <div class="col-span-3 text-center text-gray-600 text-xl">
+                No schemes found.
+            </div>`;
+        return;
+    }
 
-            if (data.length === 0) {
-                container.innerHTML = `
-                    <div class="col-span-3 text-center text-gray-600 text-xl">
-                        No matching schemes found.
-                    </div>
-                `;
-                return;
-            }
+    data.forEach(scheme => {
+        container.innerHTML += `
+        <div class="bg-white p-6 rounded-xl shadow card-hover border border-gray-200 flex flex-col justify-between">
 
-            data.forEach(scheme => {
-                container.innerHTML += `
-                <div class="bg-white p-6 rounded-xl shadow card-hover border border-gray-200">
-                    <h2 class="text-2xl font-semibold text-green-700 mb-3">${scheme.name}</h2>
+            <div>
+                <h2 class="text-xl font-semibold text-green-700 mb-2">
+                    ${scheme.name}
+                </h2>
 
-                    <div class="space-y-2 text-gray-700">
-                        <p><strong>Type:</strong> ${scheme.type}</p>
-                        <p><strong>Status:</strong> ${scheme.status}</p>
-                        <p><strong>Benefit:</strong> ${scheme.benefit}</p>
-                        <p><strong>Eligibility:</strong> ${scheme.eligibility}</p>
-                    </div>
-                </div>`;
-            });
-        }
+                <p class="text-sm text-gray-500 mb-3">
+                    ${scheme.state} • ${scheme.category}
+                </p>
 
-        function searchSchemes() {
-            const q = document.getElementById("searchBox").value.toLowerCase();
+                <p class="text-gray-700 text-sm leading-relaxed">
+                    ${scheme.description
+                        ? scheme.description.substring(0, 140) + "..."
+                        : "Description not available."}
+                </p>
+            </div>
 
-            const filtered = schemesData.filter(s =>
-                s.name.toLowerCase().includes(q) ||
-                s.type.toLowerCase().includes(q) ||
-                s.benefit.toLowerCase().includes(q)
-            );
+            <div class="mt-4 flex items-center justify-between text-sm">
+                <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full font-medium">
+                    Source: ${scheme.source}
+                </span>
 
-            displaySchemes(filtered);
-        }
+                <a href="${scheme.scheme_url}"
+                   target="_blank"
+                   class="text-green-700 font-semibold hover:underline">
+                    View Details →
+                </a>
+            </div>
+        </div>`;
+    });
+}
 
-        loadSchemes();
-    </script>
+function searchSchemes() {
+    const q = document.getElementById("searchBox").value.toLowerCase();
+
+    const filtered = schemesData.filter(s =>
+        s.name.toLowerCase().includes(q) ||
+        (s.category && s.category.toLowerCase().includes(q)) ||
+        (s.state && s.state.toLowerCase().includes(q)) ||
+        (s.description && s.description.toLowerCase().includes(q))
+    );
+
+    displaySchemes(filtered);
+}
+
+loadSchemes();
+</script>
 
 </body>
 </html>

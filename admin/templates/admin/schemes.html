@@ -20,13 +20,15 @@
                     <h1 class="text-4xl font-bold text-gray-800 mb-2 flex items-center">
                         <span class="mr-3">📋</span> Schemes Management
                     </h1>
+                   
                     <p class="text-gray-600">Manage all government schemes and programs</p>
-                </div>
+                     <a href="{{ url_for('admin.refresh_schemes') }}"
+   class="btn btn-success mb-3"
+   onclick="return confirm('This may take a few minutes. Continue?')">
+   🔄 Refresh Schemes
+</a>
 
-                <a href="{{ url_for('admin.admin_create_scheme') }}"
-                    class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl font-semibold">
-                    <span class="mr-2 text-xl">+</span> Add New Scheme
-                </a>
+                </div>
             </div>
         </div>
 
@@ -51,124 +53,85 @@
         {% endif %}
         {% endwith %}
 
-        <!-- Stats Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div class="bg-white shadow-lg rounded-xl p-6 border-l-4 border-blue-500">
-                <div class="flex items-center justify-between">
-                    <div>
-                        <p class="text-gray-500 text-sm font-semibold uppercase">Total Schemes</p>
-                        <p class="text-3xl font-bold text-gray-800 mt-2">{{ schemes|length }}</p>
-                    </div>
-                    <span class="text-4xl">📊</span>
-                </div>
-            </div>
+        
 
-            <div class="bg-white shadow-lg rounded-xl p-6 border-l-4 border-green-500">
-                <div class="flex items-center justify-between">
-                    <div>
-                        <p class="text-gray-500 text-sm font-semibold uppercase">Active Schemes</p>
-                        <p class="text-3xl font-bold text-gray-800 mt-2">{{ schemes|selectattr('status', 'equalto', 'Active')|list|length }}</p>
-                    </div>
-                    <span class="text-4xl">✅</span>
-                </div>
-            </div>
-
-            <div class="bg-white shadow-lg rounded-xl p-6 border-l-4 border-purple-500">
-                <div class="flex items-center justify-between">
-                    <div>
-                        <p class="text-gray-500 text-sm font-semibold uppercase">Categories</p>
-                        <p class="text-3xl font-bold text-gray-800 mt-2">{{ schemes|map(attribute='category')|unique|list|length }}</p>
-                    </div>
-                    <span class="text-4xl">📁</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Search and Filter Section -->
-        <div class="bg-white shadow-lg rounded-xl p-6 mb-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div>
-                    <label class="block text-sm font-semibold text-gray-700 mb-2">🔍 Search Schemes</label>
-                    <input type="text" id="searchInput" placeholder="Search by title, ministry, or category..."
-                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                </div>
-                <div>
-                    <label class="block text-sm font-semibold text-gray-700 mb-2">📂 Filter by Category</label>
-                    <select id="categoryFilter" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                        <option value="">All Categories</option>
-                        {% for category in schemes|map(attribute='category')|unique|sort %}
-                        <option value="{{ category }}">{{ category }}</option>
-                        {% endfor %}
-                    </select>
-                </div>
-                <div>
-                    <label class="block text-sm font-semibold text-gray-700 mb-2">📊 Filter by Status</label>
-                    <select id="statusFilter" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                        <option value="">All Status</option>
-                        <option value="Active">Active</option>
-                        <option value="Inactive">Inactive</option>
-                    </select>
-                </div>
-            </div>
-        </div>
+  
 
         <!-- Table Section -->
         <div class="bg-white shadow-lg rounded-xl overflow-hidden">
             <div class="overflow-x-auto">
                 <table class="w-full">
                     <thead>
-                        <tr class="bg-gradient-to-r from-gray-50 to-gray-100 border-b-2 border-gray-200">
-                            <th class="p-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">ID</th>
-                            <th class="p-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Scheme Name</th>
-                            <th class="p-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Launch Year</th>
-                            <th class="p-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Ministry</th>
-                            <th class="p-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Type</th>
-                            <th class="p-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Status</th>
-                            <th class="p-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Category</th>
-                            <th class="p-4 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Actions</th>
-                        </tr>
-                    </thead>
+<tr class="bg-gray-100 border-b">
+    <th class="p-4 text-left text-sm font-semibold">Scheme Name</th>
+    <th class="p-4 text-left text-sm font-semibold">State</th>
+    <th class="p-4 text-left text-sm font-semibold">Category</th>
+    <th class="p-4 text-left text-sm font-semibold">Description</th>
+    <th class="p-4 text-left text-sm font-semibold">Source</th>
+    <th class="p-4 text-left text-sm font-semibold">Link</th>
+    <th class="p-4 text-center text-sm font-semibold">Actions</th>
+</tr>
+</thead>
 
-                    <tbody id="tableBody">
-                        {% for scheme in schemes %}
-                        <tr class="border-b border-gray-200 hover:bg-blue-50 transition-colors duration-200" data-category="{{ scheme.category }}" data-status="{{ scheme.status }}">
-                            <td class="p-4 text-sm text-gray-700 font-medium">#{{ scheme.id }}</td>
-                            <td class="p-4">
-                                <div class="text-sm font-semibold text-gray-800">{{ scheme.name }}</div>
-                                <div class="text-xs text-gray-500 mt-1">{{ scheme.objective[:60] }}...</div>
-                            </td>
-                            <td class="p-4 text-sm text-gray-700">{{ scheme.launch_year }}</td>
-                            <td class="p-4 text-sm text-gray-700">{{ scheme.ministry }}</td>
-                            <td class="p-4 text-sm text-gray-700">
-                                <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">{{ scheme.type }}</span>
-                            </td>
-                            <td class="p-4">
-                                {% if scheme.status == 'Active' %}
-                                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">✓ Active</span>
-                                {% else %}
-                                <span class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs font-semibold">✕ Inactive</span>
-                                {% endif %}
-                            </td>
-                            <td class="p-4 text-sm text-gray-700">
-                                <span class="px-2 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">{{ scheme.category }}</span>
-                            </td>
-                            <td class="p-4 text-center">
-                                <div class="flex items-center justify-center gap-2">
-                                    <a href="{{ url_for('admin.admin_edit_scheme', id=scheme.id) }}"
-                                        class="px-4 py-2 bg-yellow-500 text-white text-sm rounded-lg hover:bg-yellow-600 transition-all duration-300 font-medium shadow hover:shadow-md flex items-center">
-                                        ✏️ Edit
-                                    </a>
 
-                                    <a href="{{ url_for('admin.admin_delete_scheme', id=scheme.id) }}"
-                                        onclick="return confirm('⚠️ Are you sure you want to delete this scheme?');"
-                                        class="px-4 py-2 bg-red-500 text-white text-sm rounded-lg hover:bg-red-600 transition-all duration-300 font-medium shadow hover:shadow-md flex items-center">
-                                        🗑️ Delete
-                                    </a>
-                                </div>
-                            </td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
+                   <tbody>
+{% for scheme in schemes %}
+<tr class="border-b hover:bg-gray-50">
+
+    <!-- Scheme Name -->
+    <td class="p-4 font-medium text-gray-800">
+        {{ scheme.name }}
+    </td>
+
+    <!-- State -->
+    <td class="p-4 text-gray-700">
+        {{ scheme.state or "Central Government" }}
+    </td>
+
+    <!-- Category -->
+    <td class="p-4">
+        <span class="px-2 py-1 bg-green-100 text-green-700 rounded text-xs">
+            {{ scheme.category or "General" }}
+        </span>
+    </td>
+
+    <!-- Description -->
+    <td class="p-4 text-sm text-gray-600">
+        {{ scheme.description | default("Description not available") | truncate(80) }}
+    </td>
+
+    <!-- Source -->
+    <td class="p-4 text-gray-700">
+        {{ scheme.source }}
+    </td>
+
+    <!-- Link -->
+    <td class="p-4">
+        <a href="{{ scheme.scheme_url }}"
+           target="_blank"
+           class="text-blue-600 hover:underline font-medium">
+            View →
+        </a>
+    </td>
+
+    <!-- Actions -->
+    <td class="p-4 text-center">
+        <a href="{{ url_for('admin.admin_edit_scheme', id=scheme.id) }}"
+           class="px-3 py-1 bg-yellow-500 text-white rounded text-sm">
+            Edit
+        </a>
+
+        <a href="{{ url_for('admin.admin_delete_scheme', id=scheme.id) }}"
+           onclick="return confirm('Delete this scheme?');"
+           class="px-3 py-1 bg-red-500 text-white rounded text-sm ml-2">
+            Delete
+        </a>
+    </td>
+
+</tr>
+{% endfor %}
+</tbody>
+
                 </table>
 
                 {% if schemes|length == 0 %}
@@ -176,51 +139,18 @@
                     <span class="text-6xl mb-4 block">📋</span>
                     <p class="text-xl text-gray-500 font-semibold">No schemes available</p>
                     <p class="text-gray-400 mt-2">Create your first scheme to get started</p>
-                    <a href="{{ url_for('admin.admin_create_scheme') }}"
-                        class="inline-block mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold">
-                        + Add First Scheme
-                    </a>
+                    <p class="text-gray-400 mt-2">
+    Click “Refresh Schemes” to fetch latest schemes from myScheme.
+</p>
+
                 </div>
                 {% endif %}
             </div>
         </div>
-
     </div>
 
     <!-- Search and Filter Script -->
-    <script>
-        const searchInput = document.getElementById('searchInput');
-        const categoryFilter = document.getElementById('categoryFilter');
-        const statusFilter = document.getElementById('statusFilter');
-        const tableBody = document.getElementById('tableBody');
-        const rows = tableBody.getElementsByTagName('tr');
-
-        function filterTable() {
-            const searchTerm = searchInput.value.toLowerCase();
-            const selectedCategory = categoryFilter.value.toLowerCase();
-            const selectedStatus = statusFilter.value.toLowerCase();
-
-            for (let row of rows) {
-                const text = row.textContent.toLowerCase();
-                const category = row.getAttribute('data-category')?.toLowerCase() || '';
-                const status = row.getAttribute('data-status')?.toLowerCase() || '';
-
-                const matchesSearch = text.includes(searchTerm);
-                const matchesCategory = !selectedCategory || category === selectedCategory;
-                const matchesStatus = !selectedStatus || status === selectedStatus;
-
-                if (matchesSearch && matchesCategory && matchesStatus) {
-                    row.style.display = '';
-                } else {
-                    row.style.display = 'none';
-                }
-            }
-        }
-
-        searchInput.addEventListener('keyup', filterTable);
-        categoryFilter.addEventListener('change', filterTable);
-        statusFilter.addEventListener('change', filterTable);
-    </script>
+   
 
 </body>
 

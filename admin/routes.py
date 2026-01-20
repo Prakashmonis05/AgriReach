@@ -51,35 +51,18 @@ def admin_dashboard():
 @admin_bp.route("/schemes")
 @admin_required
 def admin_schemes():
+    # clear old flash messages
     session.pop('_flashes', None)
-    schemes = Scheme.query.all()
-    return render_template("admin/schemes.html", schemes=schemes)
+
+    # always show latest schemes (after refresh)
+    schemes = Scheme.query.order_by(Scheme.created_at.desc()).all()
+
+    return render_template(
+        "admin/schemes.html",
+        schemes=schemes
+    )
 
 
-@admin_bp.route("/schemes/create", methods=["GET", "POST"])
-@admin_required
-def admin_create_scheme():
-    if request.method == "POST":
-
-        new_scheme = Scheme(
-            name=request.form.get("name"),
-            launch_year=request.form.get("launch_year"),
-            ministry=request.form.get("ministry"),
-            type=request.form.get("type"),
-            status=request.form.get("status"),
-            objective=request.form.get("objective"),
-            benefit=request.form.get("benefit"),
-            eligibility=request.form.get("eligibility"),
-            category=request.form.get("category")
-        )
-
-        db.session.add(new_scheme)
-        db.session.commit()
-
-        flash("Scheme created successfully!", "success")
-        return redirect(url_for("admin.admin_schemes"))
-
-    return render_template("admin/schemes_create.html")
 
 @admin_bp.route("/schemes/edit/<int:id>", methods=["GET", "POST"])
 @admin_required
@@ -87,23 +70,19 @@ def admin_edit_scheme(id):
     scheme = Scheme.query.get_or_404(id)
 
     if request.method == "POST":
-
         scheme.name = request.form.get("name")
-        scheme.launch_year = request.form.get("launch_year")
-        scheme.ministry = request.form.get("ministry")
-        scheme.type = request.form.get("type")
-        scheme.status = request.form.get("status")
-        scheme.objective = request.form.get("objective")
-        scheme.benefit = request.form.get("benefit")
-        scheme.eligibility = request.form.get("eligibility")
+        scheme.state = request.form.get("state")
         scheme.category = request.form.get("category")
-
+        scheme.description = request.form.get("description")
+        scheme.source = request.form.get("source")
+        scheme.scheme_url = request.form.get("scheme_url")
         db.session.commit()
-
         flash("Scheme updated successfully!", "success")
         return redirect(url_for("admin.admin_schemes"))
 
     return render_template("admin/schemes_edit.html", scheme=scheme)
+
+
 
 @admin_bp.route("/schemes/delete/<int:id>")
 @admin_required
@@ -162,6 +141,31 @@ def admin_messages(user_id):
         user_id=user_id,
         user_name=user_name
     )
+
+
+
+from services.scheme_scraper import run_scheme_scraper
+
+@admin_bp.route("/schemes/refresh")
+@admin_required
+def refresh_schemes():
+    try:
+        # delete old data
+        db.session.query(Scheme).delete()
+        db.session.commit()
+
+        # scrape fresh data
+        run_scheme_scraper()
+
+        flash("Schemes refreshed successfully.", "success")
+
+    except Exception as e:
+        db.session.rollback()
+        flash(f"Refresh failed: {e}", "danger")
+
+    return redirect(url_for("admin.admin_schemes"))
+
+
 
 @admin_bp.route("/messages/<user_id>/send", methods=["POST"])
 @admin_required

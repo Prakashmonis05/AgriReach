@@ -17,6 +17,14 @@
     <div class="mb-8">
         <h1 class="text-4xl font-bold text-gray-800 mb-2">Admin Dashboard</h1>
         <p class="text-gray-600">Overview of your platform's performance and user analytics</p>
+        <a href="{{ url_for('admin.refresh_schemes') }}"
+   class="btn btn-success mb-3"
+   onclick="return confirm('This may take a few minutes. Continue?')">
+   🔄 Refresh Schemes
+</a>
+    
+    
+
     </div>
 
     <!-- ===================== ANALYTICS CARDS ===================== -->
