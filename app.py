@@ -38,6 +38,10 @@ with app.app_context():
 def index():
     return render_template('index.html')
 
+@app.route("/health")
+def health():
+    return "OK", 200
+
 @app.template_filter("datetimeformat")
 def datetimeformat(value):
     return datetime.fromtimestamp(value).strftime("%d %b %Y")
