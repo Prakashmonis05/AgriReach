@@ -56,6 +56,9 @@
       </div>
     </div>
   </section>
+{% if error %}
+  <p style="color:red;">{{ error }}</p>
+{% endif %}
 
   <!-- Weather Results Section -->
   {% if city %}

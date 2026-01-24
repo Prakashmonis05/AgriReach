@@ -7,7 +7,12 @@ weather = Blueprint('weather', __name__)
 def weather_page():
     city = "Delhi"
     weather_data = []
-    dates = avg_temps = max_temps = min_temps = humidities = []
+    dates = []
+    avg_temps = []
+    max_temps = []
+    min_temps = []
+    humidities = []
+
 
     if request.method == "POST":
         user_city = request.form.get("city", "").strip()
@@ -43,14 +48,32 @@ def weather_page():
         f"&forecast_days=16"
     )
 
-    res = requests.get(forecast_url).json()
+    forecast_response = requests.get(forecast_url)
+    res = forecast_response.json()
 
-    dates = res["daily"]["time"]
-    avg_temps = res["daily"]["temperature_2m_mean"]
-    max_temps = res["daily"]["temperature_2m_max"]
-    min_temps = res["daily"]["temperature_2m_min"]
-    humidities = res["daily"]["relative_humidity_2m_mean"]
-    weather_codes = res["daily"]["weathercode"]
+    # If API fails or doesn't return daily data, avoid crashing
+    if forecast_response.status_code != 200 or "daily" not in res:
+        return render_template(
+            "weather.html",
+            weather_data=[],
+            city=city,
+            dates=[],
+            avg_temps=[],
+            max_temps=[],
+            min_temps=[],
+            humidities=[],
+            error=res.get("reason") or res.get("error") or "Weather data not available right now."
+        )
+
+    daily = res["daily"]
+
+    dates = daily.get("time", [])
+    avg_temps = daily.get("temperature_2m_mean", [])
+    max_temps = daily.get("temperature_2m_max", [])
+    min_temps = daily.get("temperature_2m_min", [])
+    humidities = daily.get("relative_humidity_2m_mean", [])
+    weather_codes = daily.get("weathercode", [])
+
 
     # Weather code → icon + description mapping
     weather_map = {
