@@ -24,7 +24,7 @@ os.makedirs(INSTANCE_DIR, exist_ok=True)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{DB_PATH}"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config["SECRET_KEY"] = 'prakash'
+app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
 
 db.init_app(app)
 bcrypt.init_app(app)
